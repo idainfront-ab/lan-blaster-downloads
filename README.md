@@ -2,25 +2,22 @@
 
 Ett retroinspirerat arenaspel för **2–16 spelare på LAN**, en spelare per dator. Spelet fungerar utan internetanslutning när det är nedladdat.
 
-## Senaste testversion: 0.1.0-dev13
+## Senaste testversion: 0.1.0-dev13.1
 
-**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev13/LAN_Blaster_0.1.0-dev13_Windows.zip)**
+**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev13.1/LAN_Blaster_0.1.0-dev13.1_Windows.zip)**
 
-[Vad är nytt och kända begränsningar](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v0.1.0-dev13) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev13/LAN_Blaster_0.1.0-dev13_Windows.zip.sha256) · [Alla versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
+[Vad är nytt och kända begränsningar](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v0.1.0-dev13.1) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev13.1/LAN_Blaster_0.1.0-dev13.1_Windows.zip.sha256) · [Alla versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
 
-## Nytt i 0.1.0-dev13
+## Nytt i 0.1.0-dev13.1
 
-- **Elden färdas ruta för ruta.** Den sprids en ruta var 0,05 sekund och utlöser nästa bomb när den når den. Synlig eld och faktisk skada följer samma förlopp.
-- **Säkrare starter.** Banorna får kontrollerade flyktvägar för den första bomben, även med uppgraderad räckvidd. Starträckvidden är nu en ruta åt varje håll.
-- **Högre tempo.** Grundfarten är fem rutor per sekund och Speed höjer upp till sju. Butikens uppgraderingar följer samma gränser.
-- **Tåliga block.** Röda block blir gråa och mer spruckna efter första bombträffen; nästa bomb förstör dem. Varje bomb kan bara skada samma block en gång. Blocket stoppar den aktuella eldstrålen även när det förstörs.
-- **Fler användbara bonusar på stora banor.** Högre bonusförekomst, större andel grunduppgraderingar och vanliga block med grundbonusar nära startområdena. Avstängda bonusar förblir avstängda.
-- **Highlights efter rundan och matchen:** flest elimineringar, självsprängningar och förstörda block. Delade ledare visas tillsammans.
-- Botarnas faroprognoser, nätverkssynk, banförhandsvisning och hjälp är uppdaterade för de nya reglerna. Factory-fixarna från Dev12.1 är kvar.
+- **Större startknappar längst ned.** Host LAN game och Practice har större text och 64 pixlar höga knappar i botten av startpanelen. Ready och Start match ligger längst ned i lobbyn, med plats för hela deltagarlistan.
+- **Mer driv i banmusiken.** Neon Circuit går i 152 BPM och Pixel Rush i 160 BPM, med tätare trummor, extra baspulser och fullt komp genom hela loopen.
+- **Musiken ökar när tiden rinner ut.** Under sista minuten stiger tempot gradvis upp till 25 procent. Tonhöjden kompenseras separat från ljudeffekterna. Nästa runda börjar i grundtempo; rundor utan tidsgräns behåller grundtempot. Ökningen följer rundklockan även när du tittar på efter att ha blivit utslagen.
+- README och paketets startguide visar den här versionens nyheter. Alla spelregler och Factory-fixar från Dev13 finns kvar.
 
-Alla datorer i samma LAN-match måste använda **0.1.0-dev13**. Packa upp hela ZIP-filen och behåll LANBlaster.exe och LANBlaster.pck tillsammans.
+Alla datorer i samma LAN-match måste använda **0.1.0-dev13.1**. Packa upp hela ZIP-filen och behåll LANBlaster.exe och LANBlaster.pck tillsammans.
 
-Detta är en utvecklingsversion med nya balansvärden att provspela. Automatiska regel-, nätverks- och paketeringskontroller kompletterar fortsatt provspelning på fysiska Windows-datorer. Team Deathmatch och Capture The Flag ligger i kommande etapper.
+Detta är en utvecklingsversion. Musikens tempo och ljudbalans är första provvärden att lyssningstesta på Windows. Respawn och Team Deathmatch planeras till Dev14; Capture The Flag kommer därefter.
 
 ## Kom igång
 
