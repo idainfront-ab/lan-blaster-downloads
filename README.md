@@ -2,26 +2,23 @@
 
 Ett retroinspirerat arenaspel för **2–16 spelare på LAN**, en spelare per dator. Spelet fungerar utan internetanslutning när det är nedladdat.
 
-## Senaste testversion: 0.1.0-dev12
+## Senaste testversion: 0.1.0-dev12.1
 
-**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev12/LAN_Blaster_0.1.0-dev12_Windows.zip)**
+**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev12.1/LAN_Blaster_0.1.0-dev12.1_Windows.zip)**
 
-[Vad är nytt och kända begränsningar](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v0.1.0-dev12) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev12/LAN_Blaster_0.1.0-dev12_Windows.zip.sha256) · [Alla versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
+[Vad är nytt och kända begränsningar](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v0.1.0-dev12.1) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev12.1/LAN_Blaster_0.1.0-dev12.1_Windows.zip.sha256) · [Alla versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
 
-## Nytt i 0.1.0-dev12
+## Nytt i 0.1.0-dev12.1
 
-- Tydlig WEAPON-panel med stor ikon, NORMAL/TIMEBOMB/REMOTE, markerat val och kontroller. Q ger återkoppling och förklarar när bytet är spärrat. Släppt bombknapp behandlas före vapenbyte även när det sker mellan två fysiksteg.
-- Bomb kick och Bomb throw som bonusar och butiksköp. Sparka genom att gå mot en normalbomb; E / handkontroll Y kastar en egen normalbomb upp till två rutor. Stubin och ägare behålls; landningen markeras.
-- Tre mekanikbanor i alla tre storlekar: Factory (transportband), Portals (parade portaler), Switchyard (knappar/portar).
-- Botarnas första spark-/kasttaktiker och terränganpassade vägval/prognoser.
-- Välj vilka banor som ingår i rotation/röstning och rösta under den befintliga resultatpausen. En röst per människa, inga botröster.
-- Levande förhandsvisning av valt Practice-banval på startsidan, med storlek, beskrivning, startplatser och mekanik.
-- THE BLAST LIST visar utslagningar denna runda och totalt i matchen bredvid rundvinster. Ledande total markeras; själv-/lagutslagningar ger ingen positiv kredit.
-- Fjorton bonusar, tio butiksköp, uppdaterad hjälp och Throw-knapp som kan bindas om. Dev11-regelpaket migreras automatiskt.
+- **Factory: Timebomb följer transportbandet**, även medan bombknappen hålls nere. Den behåller ägare och bombtyp och exploderar när knappen släpps.
+- **Factory: en ankommande bomb låser inte längre fast spelaren.** Bomben stannar innan den överlappar spelarens utrymme, så att det går att gå undan. Rättningen gäller normalbomber och Timebombs i alla fyra bandriktningar.
+- Botarnas faroprognos tar hänsyn till att en Timebomb kan släppas längs transportbandets färdväg.
+- **Rätt versionsnyheter visas först** på nedladdningssidans README och i paketets LAS_MIG.md. Nyhetstexten hämtas automatiskt från den aktuella versionens ändringslista.
+- Uppdaterad Factory-beskrivning i spelhjälpen och banförhandsvisningen.
 
-Alla datorer behöver Dev12. Packa upp hela ZIP-filen och behåll exe/pck tillsammans. F1 öppnar instruktionerna.
+Alla datorer i samma LAN-match måste använda **0.1.0-dev12.1**. Packa upp hela ZIP-filen och behåll LANBlaster.exe och LANBlaster.pck tillsammans.
 
-Testversion: mänsklig Windows-/LAN- och balansprovning återstår. Botar kan fortfarande göra misstag, särskilt när andra spelare ändrar en planerad flyktväg. Kast nekas vid för kort kvarvarande stubin och gäller bara egna normalbomber. Internet, återanslutning under match och värdbyte ingår inte.
+Detta är en felrättningsversion ovanpå Dev12. Automatiska regel- och nätverkstester är genomförda; fortsatt provspelning på fysiska Windows-datorer behövs för spelkänsla och balans. Internetspel, återanslutning mitt i matchen och automatiskt värdbyte ingår inte.
 
 ## Kom igång
 
