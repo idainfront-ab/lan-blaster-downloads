@@ -2,19 +2,19 @@
 
 Ett retroinspirerat arenaspel för **2–16 spelare på LAN**, en spelare per dator. Spelet fungerar utan internetanslutning när det är nedladdat.
 
-## Senaste testversion: 0.1.0-dev4
+## Senaste testversion: 0.1.0-dev5
 
-**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev4/LAN_Blaster_0.1.0-dev4_Windows.zip)**
+**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev5/LAN_Blaster_0.1.0-dev5_Windows.zip)**
 
-[Vad är nytt och kända begränsningar](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v0.1.0-dev4) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev4/LAN_Blaster_0.1.0-dev4_Windows.zip.sha256) · [Alla versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
+[Vad är nytt och kända begränsningar](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v0.1.0-dev5) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev5/LAN_Blaster_0.1.0-dev5_Windows.zip.sha256) · [Alla versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
 
 ## Kom igång
 
 1. Ladda ner och packa upp hela ZIP-filen till en vanlig mapp.
 2. Behåll `LANBlaster.exe` och `LANBlaster.pck` tillsammans. Starta `LANBlaster.exe`.
-3. Välj **Practice with 3 bots** för att testa själv. Botarna är enkla testmotståndare.
+3. Välj **Classic**, **Crossroads**, **Rings** eller **Cycle maps** bredvid **Practice · 3 bots** för att testa själv. Botarna är enkla testmotståndare.
 4. För LAN: en person väljer **Host a LAN game**. Övriga väljer matchen i listan eller ansluter till värdens lokala IP och samma UDP-port.
-5. Alla använder **samma version**. Tryck Ready i lobbyn; värden startar matchen.
+5. Alla använder **samma version**. Värden kan välja bana och rotation under Match settings; förhandsvisningen visar layouten för aktuellt spelarantal. Tryck Ready i lobbyn; värden startar matchen.
 
 Styr med WASD/piltangenter och lägg bomber med mellanslag. Escape öppnar menyn. M tystar eller återupptar musiken. Tangentbord och handkontroll stöds. Musik och ljudeffekter har separata reglage.
 
