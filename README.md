@@ -2,23 +2,25 @@
 
 Ett retroinspirerat arenaspel för **2–16 spelare på LAN**, en spelare per dator. Spelet fungerar utan internetanslutning när det är nedladdat.
 
-## Senaste testversion: 0.1.0-dev12.1
+## Senaste testversion: 0.1.0-dev13
 
-**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev12.1/LAN_Blaster_0.1.0-dev12.1_Windows.zip)**
+**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev13/LAN_Blaster_0.1.0-dev13_Windows.zip)**
 
-[Vad är nytt och kända begränsningar](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v0.1.0-dev12.1) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev12.1/LAN_Blaster_0.1.0-dev12.1_Windows.zip.sha256) · [Alla versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
+[Vad är nytt och kända begränsningar](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v0.1.0-dev13) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev13/LAN_Blaster_0.1.0-dev13_Windows.zip.sha256) · [Alla versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
 
-## Nytt i 0.1.0-dev12.1
+## Nytt i 0.1.0-dev13
 
-- **Factory: Timebomb följer transportbandet**, även medan bombknappen hålls nere. Den behåller ägare och bombtyp och exploderar när knappen släpps.
-- **Factory: en ankommande bomb låser inte längre fast spelaren.** Bomben stannar innan den överlappar spelarens utrymme, så att det går att gå undan. Rättningen gäller normalbomber och Timebombs i alla fyra bandriktningar.
-- Botarnas faroprognos tar hänsyn till att en Timebomb kan släppas längs transportbandets färdväg.
-- **Rätt versionsnyheter visas först** på nedladdningssidans README och i paketets LAS_MIG.md. Nyhetstexten hämtas automatiskt från den aktuella versionens ändringslista.
-- Uppdaterad Factory-beskrivning i spelhjälpen och banförhandsvisningen.
+- **Elden färdas ruta för ruta.** Den sprids en ruta var 0,05 sekund och utlöser nästa bomb när den når den. Synlig eld och faktisk skada följer samma förlopp.
+- **Säkrare starter.** Banorna får kontrollerade flyktvägar för den första bomben, även med uppgraderad räckvidd. Starträckvidden är nu en ruta åt varje håll.
+- **Högre tempo.** Grundfarten är fem rutor per sekund och Speed höjer upp till sju. Butikens uppgraderingar följer samma gränser.
+- **Tåliga block.** Röda block blir gråa och mer spruckna efter första bombträffen; nästa bomb förstör dem. Varje bomb kan bara skada samma block en gång. Blocket stoppar den aktuella eldstrålen även när det förstörs.
+- **Fler användbara bonusar på stora banor.** Högre bonusförekomst, större andel grunduppgraderingar och vanliga block med grundbonusar nära startområdena. Avstängda bonusar förblir avstängda.
+- **Highlights efter rundan och matchen:** flest elimineringar, självsprängningar och förstörda block. Delade ledare visas tillsammans.
+- Botarnas faroprognoser, nätverkssynk, banförhandsvisning och hjälp är uppdaterade för de nya reglerna. Factory-fixarna från Dev12.1 är kvar.
 
-Alla datorer i samma LAN-match måste använda **0.1.0-dev12.1**. Packa upp hela ZIP-filen och behåll LANBlaster.exe och LANBlaster.pck tillsammans.
+Alla datorer i samma LAN-match måste använda **0.1.0-dev13**. Packa upp hela ZIP-filen och behåll LANBlaster.exe och LANBlaster.pck tillsammans.
 
-Detta är en felrättningsversion ovanpå Dev12. Automatiska regel- och nätverkstester är genomförda; fortsatt provspelning på fysiska Windows-datorer behövs för spelkänsla och balans. Internetspel, återanslutning mitt i matchen och automatiskt värdbyte ingår inte.
+Detta är en utvecklingsversion med nya balansvärden att provspela. Automatiska regel-, nätverks- och paketeringskontroller kompletterar fortsatt provspelning på fysiska Windows-datorer. Team Deathmatch och Capture The Flag ligger i kommande etapper.
 
 ## Kom igång
 
