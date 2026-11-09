@@ -2,29 +2,26 @@
 
 Ett retroinspirerat arenaspel för **2–16 spelare på LAN**, en spelare per dator. Spelet fungerar utan internetanslutning när det är nedladdat.
 
-## Senaste testversion: 0.1.0-dev14.5
+## Senaste testversion: 0.1.0-dev14.6
 
-**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev14.5/LAN_Blaster_0.1.0-dev14.5_Windows.zip)**
+**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev14.6/LAN_Blaster_0.1.0-dev14.6_Windows.zip)**
 
-[Vad är nytt och kända begränsningar](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v0.1.0-dev14.5) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev14.5/LAN_Blaster_0.1.0-dev14.5_Windows.zip.sha256) · [Alla versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
+[Vad är nytt och kända begränsningar](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v0.1.0-dev14.6) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev14.6/LAN_Blaster_0.1.0-dev14.6_Windows.zip.sha256) · [Alla versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
 
-## Nytt i 0.1.0-dev14.5
+## Nytt i 0.1.0-dev14.6
 
-- Ny illustrerad spelgrafik för Crossroads, Rings, Docks, Garden, Cavern, Factory, Portals och Switchyard. Samma bilder används i spelet och banförhandsvisningarna.
-- Transportband visar sin rörelseriktning, portaler sina par och grindar öppet, stängt och väntande stängning.
-- Åtta valbara figurer: Ranger, Runner, Knight, Wizard, Engineer, Robot, Astronaut och Pirate. Fyra riktningar, gångsteg och 16 accentfärger. Välj Character i startmenyn eller Player / team i LAN-lobbyn. Valet sparas lokalt. Figurerna har samma spelegenskaper.
-- Egen LAN Blaster-ikon för spelfönstret och Windows-programfilen.
-- Ditt aktuella antal liv visas tydligt ovanför din figur, även medan figuren blinkar efter skada. Sköld visas separat. Sista livet får en gul markering.
-- Player Statistics efter avslutad match visar vinnande lag och figurer samt alla spelares lagda bomber, kills, dödsfall, tagna pickups, förstörda block, självmord och lagträffar.
-- Statistikräknarna kommer från värdens spelhändelser, följer med genom Deathmatch-respawn och nollställs vid ny match. Mystery räknas som en pickup; mynt och köp räknas separat. Dödsfall avser utslagning, inte förlust av enskilda hjärtan.
-- Quantum Bomb, Q-inventory, bonuspåfyllning, Slow, Rules och förmatchbutiken från tidigare versioner finns kvar.
+- Återgår till samma oförändrade Godot-programfil som användes före ikonbytet. GitHub kontrollerar byte för byte att den paketerade EXE-filen matchar den låsta originalmotorn.
+- LAN Blaster-ikonen finns kvar i spelfönstret. En separat `LANBlaster.ico` följer med för en Windows-genväg med egen ikon. Den svenska guiden visar hur du väljer ikonen.
+- EXE-filen i Utforskaren har Godot-ikonen. En inbäddad egen EXE-ikon skulle ändra programfilens fingeravtryck igen.
+- All spelgrafik, de åtta figurerna, livsmarkeringen, Player Statistics, vapen, bonusar, musik och Rules från Dev14.5 finns kvar.
+- Ingen betald signering eller prenumeration har lagts till. Bygge, kontroller och publicering körs som tidigare i GitHub.
 
 ## Begränsningar
 
-- Utvecklingsversion. Alla datorer behöver samma version. LAN över riktigt hemnätverk och det visuella intrycket behöver fortfarande provas av spelare.
-- Banornas planlösning, kollisioner och befintliga specialfunktioner är oförändrade. Vattengolvet i Docks är gångbart.
-- Fyra lag och upp till 16 spelare stöds. Matchresultatet grupperas efter lag och behåller tydliga spelarnummer.
-- Windows kan ibland behålla en gammal ikon i sin cache för en tidigare genväg. Skapa vid behov en ny genväg till den nya versionens programfil.
+- Utvecklingsversion. Alla LAN-datorer behöver samma version.
+- Återställningen återanvänder den tidigare standardprogramfilen men garanterar inte att SmartScreen släpper igenom spelet. Windows och datorns säkerhetspolicy avgör detta.
+- Egna ikonen på skrivbordet väljs på en vanlig Windows-genväg. Flyttas spelmappen behöver genvägen uppdateras.
+- Praktiskt provspel på Windows och ett riktigt LAN återstår.
 
 ## Kom igång
 
@@ -37,6 +34,17 @@ Ett retroinspirerat arenaspel för **2–16 spelare på LAN**, en spelare per da
 Styr med WASD/piltangenter och använd bomber med mellanslag. Q byter bombtyp och WEAPON-panelen visar valet. E / handkontroll Y använder Bomb throw när förmågan finns. Tangentbordet kan bindas om i hjälpen. Escape öppnar menyn. M tystar eller återupptar musiken. Tangentbord och handkontroll stöds. Musik och ljudeffekter har separata reglage.
 
 Standardportar: UDP **24560** för match och **24561** för lokal upptäckt. Windows kan behöva tillåta spelet på det privata nätverket. En utförligare svensk guide och motorns licenstexter ingår i ZIP-filen.
+
+## Egen ikon på en Windows-genväg
+
+Spelfönstret använder LAN Blaster-ikonen. Själva `LANBlaster.exe` är den oförändrade Godot-programfilen och visar därför Godot-ikonen i Utforskaren. `LANBlaster.ico` följer med som separat ikonfil.
+
+1. Packa upp hela ZIP-filen till den mapp du vill behålla spelet i.
+2. Högerklicka på `LANBlaster.exe` och välj **Visa fler alternativ → Skicka till → Skrivbord (skapa genväg)**.
+3. Högerklicka på den nya genvägen och välj **Egenskaper → Genväg → Byt ikon → Bläddra**.
+4. Välj `LANBlaster.ico` i spelets mapp och tryck **OK → Verkställ**.
+
+Om du flyttar spelets mapp behöver genvägens sökvägar uppdateras eller genvägen skapas igen.
 
 ## Hjälp oss testa
 
