@@ -2,24 +2,29 @@
 
 Ett retroinspirerat arenaspel för **2–16 spelare på LAN**, en spelare per dator. Spelet fungerar utan internetanslutning när det är nedladdat.
 
-## Senaste testversion: 0.1.0-dev14.4
+## Senaste testversion: 0.1.0-dev14.5
 
-**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev14.4/LAN_Blaster_0.1.0-dev14.4_Windows.zip)**
+**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev14.5/LAN_Blaster_0.1.0-dev14.5_Windows.zip)**
 
-[Vad är nytt och kända begränsningar](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v0.1.0-dev14.4) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev14.4/LAN_Blaster_0.1.0-dev14.4_Windows.zip.sha256) · [Alla versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
+[Vad är nytt och kända begränsningar](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v0.1.0-dev14.5) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev14.5/LAN_Blaster_0.1.0-dev14.5_Windows.zip.sha256) · [Alla versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
 
-## Nytt i 0.1.0-dev14.4
+## Nytt i 0.1.0-dev14.5
 
-- **Quantum Bomb:** fyra strålar går två rutor rakt, svänger 90 grader medurs och fortsätter två rutor till. Ingen förgrening. Vanlig stubin, en laddning och normala regler för väggar, tegel, skada och kedjereaktioner.
-- **Valbar i Rules:** Quantum Bomb frequency har Off/Low/Normal/High. Off spärrar fynd, Mystery, bonuspåfyllning, Q-val och användning av insamlade laddningar. Låg frekvens är standard. Tidigare sparade preset får det nya valet utan att ändra gamla inställningar.
-- **Tydlig böj och säker återkomst:** bomben har vit/indigofärgad kropp och vinklade pilar; små L-markeringar visar de möjliga svängarna. Botarnas prognos och säkra respawnplatser följer den böjda elden.
-- **Illustrerade sprites för hela föremålspaketet:** samtliga 21 bonusar och nio bombtyper använder nya PNG-bilder med material, reflexer och egna former. Samma bilder syns i spel, butik, guide och inventory.
-- **Classic närmare koncepten:** illustrerat gräs, stenpelare, varmt/rött/sprucket grått tegel och låg stenmur. Gemensamma nya föremål används på alla nio banor; övriga åtta banmiljöers grafiklyft följer senare.
-- **Nio tydliga vapenplatser:** Q/pad X växlar i ett 3×3-inventory. Tidigare startbutik, respawnutrustning, bonuspåfyllning, Slow och Pulse/Rush-musik finns kvar.
+- Ny illustrerad spelgrafik för Crossroads, Rings, Docks, Garden, Cavern, Factory, Portals och Switchyard. Samma bilder används i spelet och banförhandsvisningarna.
+- Transportband visar sin rörelseriktning, portaler sina par och grindar öppet, stängt och väntande stängning.
+- Åtta valbara figurer: Ranger, Runner, Knight, Wizard, Engineer, Robot, Astronaut och Pirate. Fyra riktningar, gångsteg och 16 accentfärger. Välj Character i startmenyn eller Player / team i LAN-lobbyn. Valet sparas lokalt. Figurerna har samma spelegenskaper.
+- Egen LAN Blaster-ikon för spelfönstret och Windows-programfilen.
+- Ditt aktuella antal liv visas tydligt ovanför din figur, även medan figuren blinkar efter skada. Sköld visas separat. Sista livet får en gul markering.
+- Player Statistics efter avslutad match visar vinnande lag och figurer samt alla spelares lagda bomber, kills, dödsfall, tagna pickups, förstörda block, självmord och lagträffar.
+- Statistikräknarna kommer från värdens spelhändelser, följer med genom Deathmatch-respawn och nollställs vid ny match. Mystery räknas som en pickup; mynt och köp räknas separat. Dödsfall avser utslagning, inte förlust av enskilda hjärtan.
+- Quantum Bomb, Q-inventory, bonuspåfyllning, Slow, Rules och förmatchbutiken från tidigare versioner finns kvar.
 
-Prova **Classic** i olika storlekar. Välj Mixed och låt Quantum vara på i Rules → Items; samla en laddning, välj den med Q och planera för medurs svängar.
+## Begränsningar
 
-Byggning, bildförberedelse, pixel-/regel-/Practice-/LAN-tester och renderade bildkontroller sker i GitHub Actions. Fysiskt Windows-/LAN-/handkontrollprov, referens-PC-prestanda och slutlig mänsklig stil-/balansbedömning återstår. Alla i samma LAN-match behöver **0.1.0-dev14.4**. Packa upp hela ZIP-filen och behåll EXE och PCK tillsammans.
+- Utvecklingsversion. Alla datorer behöver samma version. LAN över riktigt hemnätverk och det visuella intrycket behöver fortfarande provas av spelare.
+- Banornas planlösning, kollisioner och befintliga specialfunktioner är oförändrade. Vattengolvet i Docks är gångbart.
+- Fyra lag och upp till 16 spelare stöds. Matchresultatet grupperas efter lag och behåller tydliga spelarnummer.
+- Windows kan ibland behålla en gammal ikon i sin cache för en tidigare genväg. Skapa vid behov en ny genväg till den nya versionens programfil.
 
 ## Kom igång
 
