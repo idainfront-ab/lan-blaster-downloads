@@ -2,24 +2,24 @@
 
 Ett retroinspirerat arenaspel för **2–16 spelare på LAN**, en spelare per dator. Spelet fungerar utan internetanslutning när det är nedladdat.
 
-## Senaste testversion: 0.1.0-dev14.3
+## Senaste testversion: 0.1.0-dev14.4
 
-**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev14.3/LAN_Blaster_0.1.0-dev14.3_Windows.zip)**
+**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev14.4/LAN_Blaster_0.1.0-dev14.4_Windows.zip)**
 
-[Vad är nytt och kända begränsningar](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v0.1.0-dev14.3) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev14.3/LAN_Blaster_0.1.0-dev14.3_Windows.zip.sha256) · [Alla versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
+[Vad är nytt och kända begränsningar](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v0.1.0-dev14.4) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev14.4/LAN_Blaster_0.1.0-dev14.4_Windows.zip.sha256) · [Alla versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
 
-## Nytt i 0.1.0-dev14.3
+## Nytt i 0.1.0-dev14.4
 
-- **Första spelbara grafiksteget för Classic:** lugnare grönt gräs, låga grå stenpelare med ljus ovansida, varmt tegel och låg yttermur med sparsam mossa.
-- **Tydliga blocktillstånd:** förstärkt tegel är rött; skadat grått tegel har murfogar, stor spricka och kantflisa. Vanligt tegel har en egen varm ton.
-- **Sex nya bonusbilder:** Extra bomb, Flame, Speed, Shield, Coin och Mystery har silvergrå ram och enkla starka symboler. Samma bilder används på banan, i butik och guide.
-- **Fyra tydliga bombidentiteter:** Normal med reflex/stubin, Timebomb med guldband och timglas, Remote med cyan band/antenn/pil och röd nitförstärkt Superbomb med explosionssymbol. Hållen Timebomb har otänd stubin. Q-inventory visar samma identiteter.
-- **Gemensam grafik i hela spelet:** preview och spelvy använder samma resurser. De nya bonusarna och bomberna används på alla nio banor; övriga åtta banors miljöer följer i senare grafiksteg.
-- **Dev14.2:s spel kvar:** valbar startbutik i Deathmatch, köpt utrustning vid respawn, bonuspåfyllning, fem specialbomber, Slow, Q-växling och de sex Pulse/Rush-spåren finns kvar.
+- **Quantum Bomb:** fyra strålar går två rutor rakt, svänger 90 grader medurs och fortsätter två rutor till. Ingen förgrening. Vanlig stubin, en laddning och normala regler för väggar, tegel, skada och kedjereaktioner.
+- **Valbar i Rules:** Quantum Bomb frequency har Off/Low/Normal/High. Off spärrar fynd, Mystery, bonuspåfyllning, Q-val och användning av insamlade laddningar. Låg frekvens är standard. Tidigare sparade preset får det nya valet utan att ändra gamla inställningar.
+- **Tydlig böj och säker återkomst:** bomben har vit/indigofärgad kropp och vinklade pilar; små L-markeringar visar de möjliga svängarna. Botarnas prognos och säkra respawnplatser följer den böjda elden.
+- **Illustrerade sprites för hela föremålspaketet:** samtliga 21 bonusar och nio bombtyper använder nya PNG-bilder med material, reflexer och egna former. Samma bilder syns i spel, butik, guide och inventory.
+- **Classic närmare koncepten:** illustrerat gräs, stenpelare, varmt/rött/sprucket grått tegel och låg stenmur. Gemensamma nya föremål används på alla nio banor; övriga åtta banmiljöers grafiklyft följer senare.
+- **Nio tydliga vapenplatser:** Q/pad X växlar i ett 3×3-inventory. Tidigare startbutik, respawnutrustning, bonuspåfyllning, Slow och Pulse/Rush-musik finns kvar.
 
-Prova **Classic** med 2–4, 5–8 och 9–16 deltagare och jämför läsbarheten. Köp och samla förmågor, växla med Q och prova både klassiska rundor och Team Deathmatch.
+Prova **Classic** i olika storlekar. Välj Mixed och låt Quantum vara på i Rules → Items; samla en laddning, välj den med Q och planera för medurs svängar.
 
-Byggning, regel-/nätverkstester och bildrendering sker i GitHub Actions. Mänskligt Windows-/LAN-speltest, handkontrollprov, prestandaprov på referensdator och slutlig stilbedömning återstår. Alla i samma LAN-match behöver **0.1.0-dev14.3**. Packa upp hela ZIP-filen och behåll EXE och PCK tillsammans.
+Byggning, bildförberedelse, pixel-/regel-/Practice-/LAN-tester och renderade bildkontroller sker i GitHub Actions. Fysiskt Windows-/LAN-/handkontrollprov, referens-PC-prestanda och slutlig mänsklig stil-/balansbedömning återstår. Alla i samma LAN-match behöver **0.1.0-dev14.4**. Packa upp hela ZIP-filen och behåll EXE och PCK tillsammans.
 
 ## Kom igång
 
