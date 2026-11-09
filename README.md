@@ -2,24 +2,27 @@
 
 Ett retroinspirerat arenaspel för **2–16 spelare på LAN**, en spelare per dator. Spelet fungerar utan internetanslutning när det är nedladdat.
 
-## Senaste testversion: 0.1.0-dev13.2
+## Senaste testversion: 0.1.0-dev14
 
-**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev13.2/LAN_Blaster_0.1.0-dev13.2_Windows.zip)**
+**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev14/LAN_Blaster_0.1.0-dev14_Windows.zip)**
 
-[Vad är nytt och kända begränsningar](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v0.1.0-dev13.2) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev13.2/LAN_Blaster_0.1.0-dev13.2_Windows.zip.sha256) · [Alla versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
+[Vad är nytt och kända begränsningar](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v0.1.0-dev14) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev14/LAN_Blaster_0.1.0-dev14_Windows.zip.sha256) · [Alla versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
 
-## Nytt i 0.1.0-dev13.2
+## Nytt i 0.1.0-dev14
 
-- **Tre nya banteman**, baserade på musikproven: Classic Drive, Factory Pulse och Portal Rush. Korta syntljud, drivande bas och trummor ersätter den tidigare banmusiken.
-- **Musik efter bana.** Classic, Crossroads och Garden använder Classic Drive. Factory, Switchyard och Docks använder Factory Pulse. Portals, Cavern och Rings använder Portal Rush. Temat följer även banrotation och banomröstning.
-- **Gamla musiken finns kvar.** Lobby Lights används i huvudmenyn, Neon Circuit i lobbyn och Pixel Rush i butiken. Där spelas musiken i vanligt grundtempo.
-- **Slutminuten ökar fortfarande tempot** med upp till 25 procent. Nästa runda återställer grundtempot och rundor utan tidsgräns behåller det. Musik och ljudeffekter har fortsatt separata reglage.
-- De nya banlåtarna är loopar på cirka 46–49 sekunder. Samma tema fortsätter utan omstart när nästa bana använder samma musik.
-- Större startknappar och alla spelregler och Factory-fixar från Dev13.1 finns kvar. README och startguiden visar den här versionens nyheter.
+- **Team Deathmatch:** två eller fyra lag, med stöd för fyra lag à fyra människor/botar. Standard är först till 40 poäng eller högst poäng efter åtta minuter. Lag som delar högsta poäng delar segern.
+- **Respawn:** fyra sekunder efter sista livet återkommer du på en säker ledig ruta i lagets startområde. Du får två sekunders tydligt markerat skydd. Första Bomb-trycket avslutar skyddet utan bomb; släpp och tryck igen för att anfalla.
+- **Nytt startpaket vid återkomst:** två bomber, räckvidd två, grundfart och matchens valda antal liv. Personlig statistik behålls. Tidigare bomber ligger kvar med samma ägare; gamla knapp- och rörelsekommandon får inte styra nästa framträdande.
+- **Tydlig lagpoäng:** motståndarutslagning +1, självsprängning −1 och lagkamratsutslagning −1 när friendly fire är på. Skada utan utslagning ger inga poäng. Poängen kan bli negativa.
+- **Valbar återbildning av block:** originalblock kan återkomma efter 30 sekunder med två sekunders gul varning. Upptagna eller osäkra rutor väntar. Ursprunglig tålighet återställs, utan nya dolda bonusar. Av som standard.
+- **Team Deathmatch-regelpaket** i matchinställningarna, lagkapacitet, botstöd, nedräkning till återkomst och delad seger i resultatrutan. Ingen butik eller kollaps i Deathmatch. Klassisk utslagning finns kvar.
+- **README och startguide uppdaterade för Dev14.** Musiken behålls från Dev13.2; mer åtskilda banteman tar vi i en senare lyssningsrunda. Capture The Flag och byggvapnet ligger kvar i Dev15.
 
-Alla datorer i samma LAN-match måste använda **0.1.0-dev13.2**. Packa upp hela ZIP-filen och behåll LANBlaster.exe och LANBlaster.pck tillsammans.
+För att prova: öppna **Practice rules → Rule presets → Team Deathmatch → Load selected preset → Apply settings**, välj 16 deltagare och starta Practice. Block respawn slås på separat längre ned i reglerna. På LAN väljer värden samma regelpaket, lägger till önskade botar och kontrollerar Auto teams. Gäster trycker Ready igen efter regeländringar.
 
-Detta är en utvecklingsversion. Musikproven har provlyssnats; de längre looparna, tempoökningen och balansen mot speleffekterna behöver nu provspelas på Windows. Respawn och Team Deathmatch planeras till Dev14, följt av Capture The Flag.
+Alla datorer i samma LAN-match måste använda **0.1.0-dev14**. Packa upp hela ZIP-filen och behåll LANBlaster.exe och LANBlaster.pck tillsammans.
+
+Detta är en utvecklingsversion med automatiska tester i utvecklingsmiljön. Fysisk Windows, handkontroll, ljudbalans och mänskligt LAN-spel behöver provspelas. Om bara ett lag återstår anslutet avbryts Deathmatch till lobbyn utan tilldelad matchvinst.
 
 ## Kom igång
 
