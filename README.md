@@ -2,22 +2,24 @@
 
 Ett retroinspirerat arenaspel för **2–16 spelare på LAN**, en spelare per dator. Spelet fungerar utan internetanslutning när det är nedladdat.
 
-## Senaste testversion: 0.1.0-dev13.1
+## Senaste testversion: 0.1.0-dev13.2
 
-**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev13.1/LAN_Blaster_0.1.0-dev13.1_Windows.zip)**
+**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev13.2/LAN_Blaster_0.1.0-dev13.2_Windows.zip)**
 
-[Vad är nytt och kända begränsningar](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v0.1.0-dev13.1) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev13.1/LAN_Blaster_0.1.0-dev13.1_Windows.zip.sha256) · [Alla versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
+[Vad är nytt och kända begränsningar](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v0.1.0-dev13.2) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev13.2/LAN_Blaster_0.1.0-dev13.2_Windows.zip.sha256) · [Alla versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
 
-## Nytt i 0.1.0-dev13.1
+## Nytt i 0.1.0-dev13.2
 
-- **Större startknappar längst ned.** Host LAN game och Practice har större text och 64 pixlar höga knappar i botten av startpanelen. Ready och Start match ligger längst ned i lobbyn, med plats för hela deltagarlistan.
-- **Mer driv i banmusiken.** Neon Circuit går i 152 BPM och Pixel Rush i 160 BPM, med tätare trummor, extra baspulser och fullt komp genom hela loopen.
-- **Musiken ökar när tiden rinner ut.** Under sista minuten stiger tempot gradvis upp till 25 procent. Tonhöjden kompenseras separat från ljudeffekterna. Nästa runda börjar i grundtempo; rundor utan tidsgräns behåller grundtempot. Ökningen följer rundklockan även när du tittar på efter att ha blivit utslagen.
-- README och paketets startguide visar den här versionens nyheter. Alla spelregler och Factory-fixar från Dev13 finns kvar.
+- **Tre nya banteman**, baserade på musikproven: Classic Drive, Factory Pulse och Portal Rush. Korta syntljud, drivande bas och trummor ersätter den tidigare banmusiken.
+- **Musik efter bana.** Classic, Crossroads och Garden använder Classic Drive. Factory, Switchyard och Docks använder Factory Pulse. Portals, Cavern och Rings använder Portal Rush. Temat följer även banrotation och banomröstning.
+- **Gamla musiken finns kvar.** Lobby Lights används i huvudmenyn, Neon Circuit i lobbyn och Pixel Rush i butiken. Där spelas musiken i vanligt grundtempo.
+- **Slutminuten ökar fortfarande tempot** med upp till 25 procent. Nästa runda återställer grundtempot och rundor utan tidsgräns behåller det. Musik och ljudeffekter har fortsatt separata reglage.
+- De nya banlåtarna är loopar på cirka 46–49 sekunder. Samma tema fortsätter utan omstart när nästa bana använder samma musik.
+- Större startknappar och alla spelregler och Factory-fixar från Dev13.1 finns kvar. README och startguiden visar den här versionens nyheter.
 
-Alla datorer i samma LAN-match måste använda **0.1.0-dev13.1**. Packa upp hela ZIP-filen och behåll LANBlaster.exe och LANBlaster.pck tillsammans.
+Alla datorer i samma LAN-match måste använda **0.1.0-dev13.2**. Packa upp hela ZIP-filen och behåll LANBlaster.exe och LANBlaster.pck tillsammans.
 
-Detta är en utvecklingsversion. Musikens tempo och ljudbalans är första provvärden att lyssningstesta på Windows. Respawn och Team Deathmatch planeras till Dev14; Capture The Flag kommer därefter.
+Detta är en utvecklingsversion. Musikproven har provlyssnats; de längre looparna, tempoökningen och balansen mot speleffekterna behöver nu provspelas på Windows. Respawn och Team Deathmatch planeras till Dev14, följt av Capture The Flag.
 
 ## Kom igång
 
