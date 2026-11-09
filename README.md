@@ -2,25 +2,25 @@
 
 Ett retroinspirerat arenaspel för **2–16 spelare på LAN**, en spelare per dator. Spelet fungerar utan internetanslutning när det är nedladdat.
 
-## Senaste testversion: 0.1.0-dev14.7
+## Senaste testversion: 0.1.0-dev14.8
 
-**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev14.7/LAN_Blaster_0.1.0-dev14.7_Windows.zip)**
+**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev14.8/LAN_Blaster_0.1.0-dev14.8_Windows.zip)**
 
-[Vad är nytt och kända begränsningar](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v0.1.0-dev14.7) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev14.7/LAN_Blaster_0.1.0-dev14.7_Windows.zip.sha256) · [Alla versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
+[Vad är nytt och kända begränsningar](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v0.1.0-dev14.8) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev14.8/LAN_Blaster_0.1.0-dev14.8_Windows.zip.sha256) · [Alla versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
 
-## Nytt i 0.1.0-dev14.7
+## Nytt i 0.1.0-dev14.8
 
-- Den nya Player Statistics-vyn visas efter varje klassisk runda, i både Practice och LAN. Vinnande figurer, lag och alla spelares bomber, kills, deaths, pickups, block, självsprängningar och lagkills visas.
-- Rundvyn visar just den rundans siffror. WINS visar ställningen i matchserien. Efter hela serien visas sammanlagd statistik från alla rundor.
-- På seriens slutsida kan varje spelare växla mellan Last round och Series totals. Deathmatch behåller Match totals för sin enda match.
-- Rundpausen är tolv sekunder för att hinna läsa. Värden kan gå vidare tidigare med Next eller Enter. Rematch / Enter på seriens slutsida startar en ny serie och nollställer statistiken.
-- Banomröstningen ligger under tabellen och fungerar med alla 16 spelare och nio banval. Resultatet av röstningen används före butiken eller nästa runda.
-- Oförändrad Windows-programfil och separat LANBlaster.ico från Dev14.6 finns kvar. Bygge, automatiska kontroller och publicering körs i GitHub.
+- Elva nya valbara vänfigurer ingår i det **vanliga Windows-bygget**: Robert, David, Oskar, Douglas, Jack, Agge, Jimmy, Dennis, Egerborn, Sebbe och Malmsten.
+- De åtta tidigare hjältarna finns kvar. Totalt 19 val i Character på startsidan och Player / team i lobbyn. Ditt figurval sparas och fungerar i Practice och LAN. Värden kan även välja figur för botar.
+- Varje ny figur har alla fyra riktningar och tre poser per riktning: stillastående och två gångposer. Samma bilder används på banan, i karaktärsvalet och i resultatlistan. Ansikten och kläder behåller sina färger.
+- Vänfigurerna är samlade och märkta som ett paket för att kunna tas bort i en senare version. Befintliga vanliga figurer och andra vänners sparade val påverkas inte om en vän tas bort.
+- Rundstatistik och seriens totalsiffror från Dev14.7 finns kvar. Den oförändrade Windows-programfilen och separata ikonfilen behålls. Bygge, tester och publicering sker i GitHub.
 
 ## Begränsningar
 
 - Utvecklingsversion. Alla LAN-datorer behöver samma version.
-- Värden kan gå vidare innan alla röstat; endast inkomna röster räknas.
+- Figurerna är kosmetiska och ger inga egna spelmässiga fördelar.
+- En senare borttagning ändrar inte redan nedladdade eller publicerade äldre spelpaket.
 - Praktiskt provspel på Windows och ett riktigt LAN återstår.
 
 ## Kom igång
