@@ -2,27 +2,27 @@
 
 Ett retroinspirerat arenaspel för **2–16 spelare på LAN**, en spelare per dator. Spelet fungerar utan internetanslutning när det är nedladdat.
 
-## Senaste testversion: 0.1.0-dev14
+## Senaste testversion: 0.1.0-dev14.1
 
-**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev14/LAN_Blaster_0.1.0-dev14_Windows.zip)**
+**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev14.1/LAN_Blaster_0.1.0-dev14.1_Windows.zip)**
 
-[Vad är nytt och kända begränsningar](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v0.1.0-dev14) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev14/LAN_Blaster_0.1.0-dev14_Windows.zip.sha256) · [Alla versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
+[Vad är nytt och kända begränsningar](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v0.1.0-dev14.1) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev14.1/LAN_Blaster_0.1.0-dev14.1_Windows.zip.sha256) · [Alla versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
 
-## Nytt i 0.1.0-dev14
+## Nytt i 0.1.0-dev14.1
 
-- **Team Deathmatch:** två eller fyra lag, med stöd för fyra lag à fyra människor/botar. Standard är först till 40 poäng eller högst poäng efter åtta minuter. Lag som delar högsta poäng delar segern.
-- **Respawn:** fyra sekunder efter sista livet återkommer du på en säker ledig ruta i lagets startområde. Du får två sekunders tydligt markerat skydd. Första Bomb-trycket avslutar skyddet utan bomb; släpp och tryck igen för att anfalla.
-- **Nytt startpaket vid återkomst:** två bomber, räckvidd två, grundfart och matchens valda antal liv. Personlig statistik behålls. Tidigare bomber ligger kvar med samma ägare; gamla knapp- och rörelsekommandon får inte styra nästa framträdande.
-- **Tydlig lagpoäng:** motståndarutslagning +1, självsprängning −1 och lagkamratsutslagning −1 när friendly fire är på. Skada utan utslagning ger inga poäng. Poängen kan bli negativa.
-- **Valbar återbildning av block:** originalblock kan återkomma efter 30 sekunder med två sekunders gul varning. Upptagna eller osäkra rutor väntar. Ursprunglig tålighet återställs, utan nya dolda bonusar. Av som standard.
-- **Team Deathmatch-regelpaket** i matchinställningarna, lagkapacitet, botstöd, nedräkning till återkomst och delad seger i resultatrutan. Ingen butik eller kollaps i Deathmatch. Klassisk utslagning finns kvar.
-- **README och startguide uppdaterade för Dev14.** Musiken behålls från Dev13.2; mer åtskilda banteman tar vi i en senare lyssningsrunda. Capture The Flag och byggvapnet ligger kvar i Dev15.
+- **Löpande bonuspåfyllning i Team Deathmatch:** upp till tre nya bonusar var tolfte sekund, med två sekunders synlig förvarning. Välj bonuslådor, lösa bonusar, blandning eller av i Rules. Blandning ger ungefär 70 procent lådor. Lådor med cyan kant och plustecken innehåller en bonus. Taket är det högsta av åtta och två gånger deltagarantalet. Upptagna eller farliga rutor hoppas över; lådor får inte stänga en passage eller placeras nära lagbaser.
+- **Fem nya bomber:** röd Superbomb med tre rutor brett eldkors, Borrbomb som förstör och passerar första sprängbara blocket, Studsbomb som rullar framåt och studsar en gång, Stötbomb som knuffar utan egen dödlig eld samt en synlig Minbomb. Minan armeras efter en sekund, reagerar på en motståndare på samma eller angränsande ruta och försvinner genom explosion senast efter 20 sekunder. Väggar stoppar elden och bombägaren behålls vid kedjereaktioner.
+- **Laddningar:** ett fynd av en ny bombtyp ger en laddning, högst nio per typ. Placering förbrukar en laddning; misslyckad placering förbrukar ingen. Normalbomben finns alltid. Timebomb och Remote behåller sina tidigare förmågeregler.
+- **Slow:** ett fynd halverar alla levande motståndares rörelsefart i fyra sekunder. Lagkamrater och respawnskyddade spelare undantas. Effekten staplar inte hastighetsminskningen; ett nytt fynd förlänger bara tiden. Nedräkning och blå markering syns i spelvyn. Bombknappen fungerar fortfarande.
+- **Inventory:** alla åtta bombtyper visas samtidigt, med vald typ, laddningar, obegränsad användning och avstängda typer. Q / handkontroll X växlar bland användbara typer. Tomma och avstängda typer hoppas över; sista specialladdningen växlar tillbaka till Normal. Leave game ligger överst för att inventoryt ska vara fritt.
+- **Rules:** flikarna Match, Teams, Maps, Items och Presets. Varje ny bomb och Slow har frekvensval inklusive Off. Avstängda typer spärras i fynd, Mystery och användning även om en laddning finns kvar. Regelpaket laddas för granskning och används först med Apply settings. Äldre sparade regelpaket migreras med bibehållna tidigare val.
+- **Musikprov:** Arcade Pulse A i titelmenyn, Pulse B i lobbyn och Arcade Rush A–D i matcher. Team Deathmatch växlar Rush-spår vid nästa match utan direkt upprepning. Respawn byter inte musik. Rules → Match → Soundtrack växlar mellan provmusiken och den äldre musiken. Volym, mute, mjuka övergångar och slutminutens tempoökning finns kvar.
 
-För att prova: öppna **Practice rules → Rule presets → Team Deathmatch → Load selected preset → Apply settings**, välj 16 deltagare och starta Practice. Block respawn slås på separat längre ned i reglerna. På LAN väljer värden samma regelpaket, lägger till önskade botar och kontrollerar Auto teams. Gäster trycker Ready igen efter regeländringar.
+För att prova: **Practice rules → Presets → Team Deathmatch → Load selected preset → Apply settings**. Välj önskat deltagarantal och starta Practice. Ändra vapenfrekvenser på Items-fliken och bonuspåfyllning på Match-fliken.
 
-Alla datorer i samma LAN-match måste använda **0.1.0-dev14**. Packa upp hela ZIP-filen och behåll LANBlaster.exe och LANBlaster.pck tillsammans.
+Alla datorer i samma match måste använda **0.1.0-dev14.1**. Packa upp hela ZIP-filen och behåll EXE och PCK tillsammans. Ingen installation eller internetanslutning behövs för att spela.
 
-Detta är en utvecklingsversion med automatiska tester i utvecklingsmiljön. Fysisk Windows, handkontroll, ljudbalans och mänskligt LAN-spel behöver provspelas. Om bara ett lag återstår anslutet avbryts Deathmatch till lobbyn utan tilldelad matchvinst.
+Versionen har utvecklingstester och lokal Windows-bildgranskning. Mänskligt LAN-provspel, handkontroll, vapenbalans och musikalisk bedömning av loopskarvar och ljudbalans återstår. De nya Suno-looparna är ett prov, inte slutligt musikval. CTF och byggvapnet ingår inte i denna mellanversion.
 
 ## Kom igång
 
