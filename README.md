@@ -2,25 +2,25 @@
 
 Ett retroinspirerat arenaspel för **2–16 spelare på LAN**, en spelare per dator. Spelet fungerar utan internetanslutning när det är nedladdat.
 
-## Senaste testversion: 0.1.0-dev14.6
+## Senaste testversion: 0.1.0-dev14.7
 
-**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev14.6/LAN_Blaster_0.1.0-dev14.6_Windows.zip)**
+**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev14.7/LAN_Blaster_0.1.0-dev14.7_Windows.zip)**
 
-[Vad är nytt och kända begränsningar](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v0.1.0-dev14.6) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev14.6/LAN_Blaster_0.1.0-dev14.6_Windows.zip.sha256) · [Alla versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
+[Vad är nytt och kända begränsningar](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v0.1.0-dev14.7) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev14.7/LAN_Blaster_0.1.0-dev14.7_Windows.zip.sha256) · [Alla versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
 
-## Nytt i 0.1.0-dev14.6
+## Nytt i 0.1.0-dev14.7
 
-- Återgår till samma oförändrade Godot-programfil som användes före ikonbytet. GitHub kontrollerar byte för byte att den paketerade EXE-filen matchar den låsta originalmotorn.
-- LAN Blaster-ikonen finns kvar i spelfönstret. En separat `LANBlaster.ico` följer med för en Windows-genväg med egen ikon. Den svenska guiden visar hur du väljer ikonen.
-- EXE-filen i Utforskaren har Godot-ikonen. En inbäddad egen EXE-ikon skulle ändra programfilens fingeravtryck igen.
-- All spelgrafik, de åtta figurerna, livsmarkeringen, Player Statistics, vapen, bonusar, musik och Rules från Dev14.5 finns kvar.
-- Ingen betald signering eller prenumeration har lagts till. Bygge, kontroller och publicering körs som tidigare i GitHub.
+- Den nya Player Statistics-vyn visas efter varje klassisk runda, i både Practice och LAN. Vinnande figurer, lag och alla spelares bomber, kills, deaths, pickups, block, självsprängningar och lagkills visas.
+- Rundvyn visar just den rundans siffror. WINS visar ställningen i matchserien. Efter hela serien visas sammanlagd statistik från alla rundor.
+- På seriens slutsida kan varje spelare växla mellan Last round och Series totals. Deathmatch behåller Match totals för sin enda match.
+- Rundpausen är tolv sekunder för att hinna läsa. Värden kan gå vidare tidigare med Next eller Enter. Rematch / Enter på seriens slutsida startar en ny serie och nollställer statistiken.
+- Banomröstningen ligger under tabellen och fungerar med alla 16 spelare och nio banval. Resultatet av röstningen används före butiken eller nästa runda.
+- Oförändrad Windows-programfil och separat LANBlaster.ico från Dev14.6 finns kvar. Bygge, automatiska kontroller och publicering körs i GitHub.
 
 ## Begränsningar
 
 - Utvecklingsversion. Alla LAN-datorer behöver samma version.
-- Återställningen återanvänder den tidigare standardprogramfilen men garanterar inte att SmartScreen släpper igenom spelet. Windows och datorns säkerhetspolicy avgör detta.
-- Egna ikonen på skrivbordet väljs på en vanlig Windows-genväg. Flyttas spelmappen behöver genvägen uppdateras.
+- Värden kan gå vidare innan alla röstat; endast inkomna röster räknas.
 - Praktiskt provspel på Windows och ett riktigt LAN återstår.
 
 ## Kom igång
