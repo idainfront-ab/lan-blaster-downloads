@@ -2,23 +2,27 @@
 
 Ett retroinspirerat arenaspel för **2–16 spelare på LAN**, en spelare per dator. Spelet fungerar utan internetanslutning när det är nedladdat.
 
-## Senaste testversion: 0.1.0-dev15.5
+## Senaste testversion: 0.1.0-dev15.6
 
-**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev15.5/LAN_Blaster_0.1.0-dev15.5_Windows.zip)**
+**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev15.6/LAN_Blaster_0.1.0-dev15.6_Windows.zip)**
 
-[Vad är nytt och kända begränsningar](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v0.1.0-dev15.5) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev15.5/LAN_Blaster_0.1.0-dev15.5_Windows.zip.sha256) · [Alla versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
+[Vad är nytt och kända begränsningar](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v0.1.0-dev15.6) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev15.6/LAN_Blaster_0.1.0-dev15.6_Windows.zip.sha256) · [Alla versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
 
-## Nytt i 0.1.0-dev15.5
+## Nytt i 0.1.0-dev15.6
 
-- Nytt valfritt Windows-verktyg LANBlasterLab.exe för att samordna ett LAN-test från värddatorn.
-- Parkoppla laptoppar med engångskod, distribuera det medföljande spelet med filkontroll, starta värd/klienter och stoppa testet.
-- Klientautopilot för Classic med grundbonusar och vanliga bomber. F8 växlar mellan autopilot och manuell styrning i labbläget.
-- Tiominutersprov med automatiska ommatcher och lokala status-/felloggar.
-- Vanlig spelstart, befintliga banor, regler och Windows-spelruntime bevaras.
+- LAN Lab öppnar nu en lobby där värden själv väljer alla tillgängliga banor, Classic, Deathmatch eller Capture The Flag och spelets vanliga Match settings.
+- Open lobby ansluter valda laptoppar. De blir Ready automatiskt, även när värden ändrar regler. Matchen startar först när värden väljer Start match.
+- Back to lobby avbryter matchen och samlar samma anslutna spelare för nya banor och regler. Resultatrutan startar inte längre om matchen automatiskt.
+- Autopiloterna köper ett tillgängligt föremål i butiken när de har råd, blir klara och deltar i banröstningen. Värdens spelare styrs manuellt tills F8 används.
+- Tiominutersgränsen är borttagen. Testet kör tills det stoppas med Stop all eller programmet stängs ordnat.
+- Parkoppling sparas skyddat för Windows-användaren på båda datorerna. Laptoppar återansluter med samma parkoppling efter omstart. Forget selected tar bort kopplingen.
+- Status och rapporter visar valda regler och aktuell bana. Normal spelstart och möjligheten att bygga helt utan labbstöd bevaras.
 
-Packa upp hela paketet. Starta LANBlasterLab.exe och välj 1 på värddatorn, 2 på laptoppen. Följ LAN_LAB_LAS_MIG.md. Inget separat .NET behöver installeras.
+Uppdatera LANBlasterLab.exe på både värddatorn och laptopparna genom att packa upp det nya paketet. Gör en första sparad parkoppling i Dev15.6, välj Update selected, invänta Ready och klicka Open lobby. Välj sedan Match settings i värdens spelfönster och Start match. Back to lobby finns i kontrollpanelen.
 
-Första pilot: fysiskt Windows-/LAN-prov återstår. Update selected distribuerar versionen bredvid kontrollpanelen; nya paket hämtas först på värddatorn. Autopiloten är avsedd för Classic-provet och ersätter inte mänsklig bedömning av spelkänsla. Kontrollpanelen kräver att Windows är inloggat och programmet öppet.
+Autopiloten är en testspelare som rör sig, använder vanliga bomber och följer CTF-mål. Den aktiverar inte alla specialvapen/förmågor själv; använd F8 för riktade manuella prov. Alla tillåtna banor och regelval kan köras, men det är ingen garanti för taktiskt bra spel eller full automatisk täckning av varje föremål.
+
+Laptoppar behöver vara inloggade med styrprogrammet öppet. För stängda lock måste datorerna fortsätta vara vakna på nätström; fysisk funktion, bilddrivrutiner och kylning behöver provas på varje laptop.
 
 ## Kom igång
 
