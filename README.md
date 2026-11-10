@@ -2,30 +2,23 @@
 
 Ett retroinspirerat arenaspel för **2–16 spelare på LAN**, en spelare per dator. Spelet fungerar utan internetanslutning när det är nedladdat.
 
-## Senaste testversion: 0.1.0-dev15.4
+## Senaste testversion: 0.1.0-dev15.5
 
-**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev15.4/LAN_Blaster_0.1.0-dev15.4_Windows.zip)**
+**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev15.5/LAN_Blaster_0.1.0-dev15.5_Windows.zip)**
 
-[Vad är nytt och kända begränsningar](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v0.1.0-dev15.4) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev15.4/LAN_Blaster_0.1.0-dev15.4_Windows.zip.sha256) · [Alla versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
+[Vad är nytt och kända begränsningar](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v0.1.0-dev15.5) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev15.5/LAN_Blaster_0.1.0-dev15.5_Windows.zip.sha256) · [Alla versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
 
-## Nytt i 0.1.0-dev15.4
+## Nytt i 0.1.0-dev15.5
 
-- Den nya banan heter nu **Desert Ruins** i spelet. Samma bana, originalgrafik och layouter för 2–4, 5–8 och 9–16 spelare finns kvar.
-- Fortress-förhandsvisningen i Rules ändras direkt när befästa flaggrum slås av eller på. Efter Apply settings uppdateras även huvudmenyns banvy. Cancel behåller tidigare val.
-- Audio-knappen får rätt storlek och placering både vid start och efter återkomst från en match.
-- How to play ligger helt inom menyns nederkant och går fortfarande att öppna med knappen eller F1.
-- BUILD och FRIENDLY FIRE är klickbara snabbval som sparar regeln direkt. BUILD återställer föregående frekvens när det slås på igen; Basic-only kräver byte till Mixed i Rules.
-- Spelarprofilen har flyttats åt vänster och namntexten fått större utrymme samt anpassad textstorlek för långa namn.
-- Customize rules får en varm accentfärg när inställningarna avviker från ett färdigt/sparat paket. Den fristående Custom-texten är borttagen; hjälptexten förklarar markeringen.
-- Arena är frikopplad från huvudmenyns regelpaket. Standard, Quick match och My presets behåller vald bana, rotation och banlista. Ett banbyte släcker inte Quick match eller markerar spelreglerna som Custom. Fullständiga sparade profiler och Rules finns kvar.
-- CTF Fortress finns via Capture The Flag → My presets. Välj Desert Ruins under Arena. Samma val används i Practice och Host LAN; vanliga CTF-regler och egna sparade val behålls.
-- Ett enda nedladdningsspår: den vanliga nedladdningssidan länkar till senaste versionen. Äldre numrerade versioner finns kvar.
+- Nytt valfritt Windows-verktyg LANBlasterLab.exe för att samordna ett LAN-test från värddatorn.
+- Parkoppla laptoppar med engångskod, distribuera det medföljande spelet med filkontroll, starta värd/klienter och stoppa testet.
+- Klientautopilot för Classic med grundbonusar och vanliga bomber. F8 växlar mellan autopilot och manuell styrning i labbläget.
+- Tiominutersprov med automatiska ommatcher och lokala status-/felloggar.
+- Vanlig spelstart, befintliga banor, regler och Windows-spelruntime bevaras.
 
-Fortress-reglerna är oförändrade: stå still på fiendens flaggruta i 1,5 sekunder för att stjäla flaggan från basen, släpp alla rörelseknappar. Skada avbryter försöket. En tappad fiendeflagga tas direkt. Respawnskydd måste ha upphört. Egen flagga måste vara hemma när motståndarens flagga lämnas in.
+Packa upp hela paketet. Starta LANBlasterLab.exe och välj 1 på värddatorn, 2 på laptoppen. Följ LAN_LAB_LAS_MIG.md. Inget separat .NET behöver installeras.
 
-Desert Ruins är fortsatt första grafikprovet. Övriga banor använder sin tidigare grafik och spelmodell. Inga nya banor eller specialregler har lagts in i denna version.
-
-Provspela särskilt de båda Fortress-previewerna, Audio/How to play före och efter match, start av Desert Ruins i Practice/LAN samt läsbarhet, kollision och eld runt centralruinen. Automatiska GitHub-kontroller ersätter inte fysiskt Windows-/LAN- och handkontrollsprov.
+Första pilot: fysiskt Windows-/LAN-prov återstår. Update selected distribuerar versionen bredvid kontrollpanelen; nya paket hämtas först på värddatorn. Autopiloten är avsedd för Classic-provet och ersätter inte mänsklig bedömning av spelkänsla. Kontrollpanelen kräver att Windows är inloggat och programmet öppet.
 
 ## Kom igång
 
