@@ -2,26 +2,30 @@
 
 Ett retroinspirerat arenaspel för **2–16 spelare på LAN**, en spelare per dator. Spelet fungerar utan internetanslutning när det är nedladdat.
 
-## Senaste testversion: 0.1.0-dev15.3
+## Senaste testversion: 0.1.0-dev15.4
 
-**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev15.3/LAN_Blaster_0.1.0-dev15.3_Windows.zip)**
+**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev15.4/LAN_Blaster_0.1.0-dev15.4_Windows.zip)**
 
-[Vad är nytt och kända begränsningar](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v0.1.0-dev15.3) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev15.3/LAN_Blaster_0.1.0-dev15.3_Windows.zip.sha256) · [Alla versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
+[Vad är nytt och kända begränsningar](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v0.1.0-dev15.4) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev15.4/LAN_Blaster_0.1.0-dev15.4_Windows.zip.sha256) · [Alla versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
 
-## Nytt i 0.1.0-dev15.3
+## Nytt i 0.1.0-dev15.4
 
-Dev15.3 innehåller den nya banan **Ökenruinen** och regelpaketet **CTF Fortress**. Alla nya versioner hämtas här från samma nedladdningsspår. Banans engelska namn **Desert Ruins** och rapporterade menyfixar är planerade för Dev15.4.
+- Den nya banan heter nu **Desert Ruins** i spelet. Samma bana, originalgrafik och layouter för 2–4, 5–8 och 9–16 spelare finns kvar.
+- Fortress-förhandsvisningen i Rules ändras direkt när befästa flaggrum slås av eller på. Efter Apply settings uppdateras även huvudmenyns banvy. Cancel behåller tidigare val.
+- Audio-knappen får rätt storlek och placering både vid start och efter återkomst från en match.
+- How to play ligger helt inom menyns nederkant och går fortfarande att öppna med knappen eller F1.
+- BUILD och FRIENDLY FIRE är klickbara snabbval som sparar regeln direkt. BUILD återställer föregående frekvens när det slås på igen; Basic-only kräver byte till Mixed i Rules.
+- Spelarprofilen har flyttats åt vänster och namntexten fått större utrymme samt anpassad textstorlek för långa namn.
+- Customize rules får en varm accentfärg när inställningarna avviker från ett färdigt/sparat paket. Den fristående Custom-texten är borttagen; hjälptexten förklarar markeringen.
+- Arena är frikopplad från huvudmenyns regelpaket. Standard, Quick match och My presets behåller vald bana, rotation och banlista. Ett banbyte släcker inte Quick match eller markerar spelreglerna som Custom. Fullständiga sparade profiler och Rules finns kvar.
+- CTF Fortress finns via Capture The Flag → My presets. Välj Desert Ruins under Arena. Samma val används i Practice och Host LAN; vanliga CTF-regler och egna sparade val behålls.
+- Ett enda nedladdningsspår: den vanliga nedladdningssidan länkar till senaste versionen. Äldre numrerade versioner finns kvar.
 
-- Ny egen banfamilj **Ökenruinen** (desert_ruin), med originalpaketets 26 sprites och fasta layouter för 2–4, 5–8 och 9–16 spelare. Välj Ökenruinen och åtta deltagare för huvudprovet 23×17.
-- Centralruinen blockerar nio fasta rutor och ritas som ett gemensamt landmärke. Ringen runtom är fri i layouten. Statyhuvudet ligger ovanför/toppen av banan; markmosaik och skärvor saknar kollision.
-- Murar och urnor använder ordinarie förstöring, bomber och bonusregler med ett träffsteg. Inga nya fällor, sandbromsning eller miljöförmågor. Den fasta provlayouten ersätter slumpmässig hinderfyllning på just Ökenruinen; brick density ändrar inte dess grundlayout.
-- Alla tidigare banor finns kvar. Respawn- och CTF-lägen anpassar basområden enligt vanliga lägesregler; Classic är närmast paketets exakta grundlayout.
-- Nytt CTF-regelpaket **CTF Fortress**, tillgängligt via CTF → My presets. Flaggbäraren begränsas till 75 procent av grundfarten, två sprängbara portar skyddar varje flaggrum, och flaggan tar 1,5 sekunder att stjäla från hemmabasen.
-- Försvarare kan reparera portarna med befintliga BUILD-laddningar. Det sista utloppet får inte stängas när en spelare står inne i rummet. Spawnplatser är separata från portarna.
-- Alla fyra Fortress-inställningar finns separat i Rules: fartbegränsning (Off/75/50%), befästa flaggbaser, portreparation med BUILD och stöldtid (0/1/1,5/2 s). Det tidigare Capture The Flag-paketet behåller de tidigare reglerna.
-- Egna regler, gamla regelpaket, figurer, ljud, tangenter, Practice och LAN behålls. Alla datorer behöver samma provversion. Windows-programfilen är fortfarande oförändrad.
+Fortress-reglerna är oförändrade: stå still på fiendens flaggruta i 1,5 sekunder för att stjäla flaggan från basen, släpp alla rörelseknappar. Skada avbryter försöket. En tappad fiendeflagga tas direkt. Respawnskydd måste ha upphört. Egen flagga måste vara hemma när motståndarens flagga lämnas in.
 
-Provspela särskilt: kollision vid urnor/murar, rörelse och eld runt centralruinens fyra sidor, spawn och tidig flykt, kontrast för bonusar/eld på sand, botarnas anfall/portreparation samt flaggbärarens fart och lagspel. Alla tidigare specialförmågor finns kvar; deras taktiska balans i Fortress behöver mänskligt provspel. Mänskliga Windows-/LAN- och handkontrollsprov återstår.
+Desert Ruins är fortsatt första grafikprovet. Övriga banor använder sin tidigare grafik och spelmodell. Inga nya banor eller specialregler har lagts in i denna version.
+
+Provspela särskilt de båda Fortress-previewerna, Audio/How to play före och efter match, start av Desert Ruins i Practice/LAN samt läsbarhet, kollision och eld runt centralruinen. Automatiska GitHub-kontroller ersätter inte fysiskt Windows-/LAN- och handkontrollsprov.
 
 ## Kom igång
 
