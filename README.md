@@ -2,25 +2,24 @@
 
 Ett retroinspirerat arenaspel för **2–16 spelare på LAN**, en spelare per dator. Spelet fungerar utan internetanslutning när det är nedladdat.
 
-## Senaste testversion: 0.1.0-dev15
+## Senaste testversion: 0.1.0-dev15.1
 
-**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev15/LAN_Blaster_0.1.0-dev15_Windows.zip)**
+**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev15.1/LAN_Blaster_0.1.0-dev15.1_Windows.zip)**
 
-[Vad är nytt och kända begränsningar](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v0.1.0-dev15) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev15/LAN_Blaster_0.1.0-dev15_Windows.zip.sha256) · [Alla versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
+[Vad är nytt och kända begränsningar](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v0.1.0-dev15.1) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev15.1/LAN_Blaster_0.1.0-dev15.1_Windows.zip.sha256) · [Alla versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
 
-## Nytt i 0.1.0-dev15
+## Nytt i 0.1.0-dev15.1
 
-- **Capture The Flag i Practice och på LAN:** två lag, normalt tre flaggpoäng eller tio minuter. Stjäl motståndarens flagga och ta hem den medan din egen är hemma. Lika vid tiden ger oavgjort.
-- Flaggor tappas vid död/frånkoppling, återtas genom beröring och går hem automatiskt efter 20 sekunder. Tydliga baser, bärarflaggor och lag-/flaggstatus.
-- **BUILD:** ny bonus med egen bild och Q/pad X-val i inventory. Tre laddningar per fynd, max sex. Bomb bygger framför dig efter 0,5 sekunder; två sekunders cooldown. Grön/röd förhandsvisning visar om placeringen går.
-- Byggda block tål en träff och ligger kvar tills de sprängs. Laddningar försvinner vid död. Ogiltiga placeringar kostar inget; flaggor, spawnplatser och flyktvägar skyddas.
-- **Rules** styr CTF, flaggmål/tid, BUILD Off/Low/Normal/High, valbar startbutik, bonuspåfyllning och återbildning av originalblock. Respawn och startbutik använder samma grund som Deathmatch.
-- Resultatet visar figurer, vinnande lag, erövrade/återtagna flaggor, bomber, kills, deaths, pickups, förstörda och byggda block. Ommatch nollställer statistiken.
-- Alla tidigare 19 figurer inklusive de elva vännerna, nio banteman, Quantum och musikprovet finns kvar i samma vanliga Windows-paket. Oförändrad Godot-programfil, egen fönsterikon och separat LANBlaster.ico.
+- Ny huvudmeny enligt det godkända bildförslaget, med direktval av **Classic**, **Deathmatch** och **Capture The Flag**. Samma banillustrationer från förslaget används i spelet.
+- Varje läge har **Standard**, **Quick match**, **My presets** och en tydlig regelsammanfattning. **Customize rules** öppnar alla tidigare regelflikar.
+- Egna regelpaket och äldre sparade paket finns kvar. Ändrade regler märks **Custom**. Senast tillämpade regler och spelarantal sparas separat per spelläge.
+- Practice och Host LAN använder samma valda regler och bana. **Join LAN** samlar sökning efter spel och direktanslutning med IP. Matchnamn, maxantal platser och egen UDP-port finns kvar i LAN-rutan.
+- Alla val för lag, liv, tid, butik, hjul, banor/rotation/omröstning, monster, svårighetsgrad, bonusfrekvenser, musik, återbildning och BUILD finns kvar. Figurvalet med alla 19 figurer, accentfärger, ljud/musik och tangentbindningar behålls.
+- Spelreglerna från Dev15 och den oförändrade Windows-programfilen är kvar. Det här är ett menylyft; egna inställningar skrivs inte över när man ansluter till en annan värds match.
 
-Prova: Rules → Presets → Capture The Flag → Load selected preset → Apply settings. Välj åtta deltagare för 4v4 eller sexton för 8v8.
+Quick match använder tre rundvinster/två minuter i Classic, 20 poäng/fem minuter i Deathmatch och en flagga/fem minuter i CTF. Fullständiga regler kan alltid anpassas.
 
-Utvecklingsversion: mänskligt Windows-/LAN-provspel, slutlig balans och långtidstest återstår. Alla datorer behöver samma version. Fyra lags CTF, Håll kronan och revansch ingår inte ännu.
+Utvecklingsversion: mänskligt Windows-/LAN-provspel och fysisk handkontrollsprovning återstår. Alla datorer behöver samma version.
 
 ## Kom igång
 
