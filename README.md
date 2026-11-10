@@ -2,26 +2,25 @@
 
 Ett retroinspirerat arenaspel för **2–16 spelare på LAN**, en spelare per dator. Spelet fungerar utan internetanslutning när det är nedladdat.
 
-## Senaste testversion: 0.1.0-dev14.8
+## Senaste testversion: 0.1.0-dev15
 
-**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev14.8/LAN_Blaster_0.1.0-dev14.8_Windows.zip)**
+**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev15/LAN_Blaster_0.1.0-dev15_Windows.zip)**
 
-[Vad är nytt och kända begränsningar](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v0.1.0-dev14.8) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev14.8/LAN_Blaster_0.1.0-dev14.8_Windows.zip.sha256) · [Alla versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
+[Vad är nytt och kända begränsningar](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v0.1.0-dev15) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev15/LAN_Blaster_0.1.0-dev15_Windows.zip.sha256) · [Alla versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
 
-## Nytt i 0.1.0-dev14.8
+## Nytt i 0.1.0-dev15
 
-- Elva nya valbara vänfigurer ingår i det **vanliga Windows-bygget**: Robert, David, Oskar, Douglas, Jack, Agge, Jimmy, Dennis, Egerborn, Sebbe och Malmsten.
-- De åtta tidigare hjältarna finns kvar. Totalt 19 val i Character på startsidan och Player / team i lobbyn. Ditt figurval sparas och fungerar i Practice och LAN. Värden kan även välja figur för botar.
-- Varje ny figur har alla fyra riktningar och tre poser per riktning: stillastående och två gångposer. Samma bilder används på banan, i karaktärsvalet och i resultatlistan. Ansikten och kläder behåller sina färger.
-- Vänfigurerna är samlade och märkta som ett paket för att kunna tas bort i en senare version. Befintliga vanliga figurer och andra vänners sparade val påverkas inte om en vän tas bort.
-- Rundstatistik och seriens totalsiffror från Dev14.7 finns kvar. Den oförändrade Windows-programfilen och separata ikonfilen behålls. Bygge, tester och publicering sker i GitHub.
+- **Capture The Flag i Practice och på LAN:** två lag, normalt tre flaggpoäng eller tio minuter. Stjäl motståndarens flagga och ta hem den medan din egen är hemma. Lika vid tiden ger oavgjort.
+- Flaggor tappas vid död/frånkoppling, återtas genom beröring och går hem automatiskt efter 20 sekunder. Tydliga baser, bärarflaggor och lag-/flaggstatus.
+- **BUILD:** ny bonus med egen bild och Q/pad X-val i inventory. Tre laddningar per fynd, max sex. Bomb bygger framför dig efter 0,5 sekunder; två sekunders cooldown. Grön/röd förhandsvisning visar om placeringen går.
+- Byggda block tål en träff och ligger kvar tills de sprängs. Laddningar försvinner vid död. Ogiltiga placeringar kostar inget; flaggor, spawnplatser och flyktvägar skyddas.
+- **Rules** styr CTF, flaggmål/tid, BUILD Off/Low/Normal/High, valbar startbutik, bonuspåfyllning och återbildning av originalblock. Respawn och startbutik använder samma grund som Deathmatch.
+- Resultatet visar figurer, vinnande lag, erövrade/återtagna flaggor, bomber, kills, deaths, pickups, förstörda och byggda block. Ommatch nollställer statistiken.
+- Alla tidigare 19 figurer inklusive de elva vännerna, nio banteman, Quantum och musikprovet finns kvar i samma vanliga Windows-paket. Oförändrad Godot-programfil, egen fönsterikon och separat LANBlaster.ico.
 
-## Begränsningar
+Prova: Rules → Presets → Capture The Flag → Load selected preset → Apply settings. Välj åtta deltagare för 4v4 eller sexton för 8v8.
 
-- Utvecklingsversion. Alla LAN-datorer behöver samma version.
-- Figurerna är kosmetiska och ger inga egna spelmässiga fördelar.
-- En senare borttagning ändrar inte redan nedladdade eller publicerade äldre spelpaket.
-- Praktiskt provspel på Windows och ett riktigt LAN återstår.
+Utvecklingsversion: mänskligt Windows-/LAN-provspel, slutlig balans och långtidstest återstår. Alla datorer behöver samma version. Fyra lags CTF, Håll kronan och revansch ingår inte ännu.
 
 ## Kom igång
 
