@@ -2,22 +2,26 @@
 
 Ett retroinspirerat arenaspel för **2–16 spelare på LAN**, en spelare per dator. Spelet fungerar utan internetanslutning när det är nedladdat.
 
-## Senaste testversion: 0.1.0-dev15.2
+## Senaste testversion: 0.1.0-dev15.3
 
-**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev15.2/LAN_Blaster_0.1.0-dev15.2_Windows.zip)**
+**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev15.3/LAN_Blaster_0.1.0-dev15.3_Windows.zip)**
 
-[Vad är nytt och kända begränsningar](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v0.1.0-dev15.2) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev15.2/LAN_Blaster_0.1.0-dev15.2_Windows.zip.sha256) · [Alla versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
+[Vad är nytt och kända begränsningar](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v0.1.0-dev15.3) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev15.3/LAN_Blaster_0.1.0-dev15.3_Windows.zip.sha256) · [Alla versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
 
-## Nytt i 0.1.0-dev15.2
+## Nytt i 0.1.0-dev15.3
 
-- Huvudmenyn följer det godkända konceptet närmare: större logotyp och rubriker, rundade spelkort, tydligare valt läge, mjuka färgtoningar och sammanhängande regelknappar.
-- Överdelen samlar avatar och namn i en spelarprofil. Character och Audio har ikoner; How to play ligger i sidfoten och nås även med F1. Namn, alla 19 figurer och accentfärger redigeras via profilen/Character.
-- Join LAN, Practice, Host LAN och Customize rules har tydliga ikoner enligt konceptets formspråk.
-- Banpanelen visar verklig banegrafik i större detalj. **Full map** växlar till hela den faktiska banan; **Detail** växlar tillbaka. Alla nio banor och Cycle maps finns kvar.
-- Regelsammanfattning, BUILD/liv, SHOP och friendly fire grupperas som i konceptet. My presets öppnar både val och sparande av regelpaket.
-- Samtliga inställningar, äldre regelpaket och lägesprofiler från Dev15.1 behålls. Spelregler, statistik, musik och Windows-runtime ändras inte.
+Dev15.3 innehåller den nya banan **Ökenruinen** och regelpaketet **CTF Fortress**. Alla nya versioner hämtas här från samma nedladdningsspår. Banans engelska namn **Desert Ruins** och rapporterade menyfixar är planerade för Dev15.4.
 
-Utvecklingsversion: mänskligt Windows-/LAN-provspel och fysisk handkontrollsprovning återstår. Alla datorer behöver samma version.
+- Ny egen banfamilj **Ökenruinen** (desert_ruin), med originalpaketets 26 sprites och fasta layouter för 2–4, 5–8 och 9–16 spelare. Välj Ökenruinen och åtta deltagare för huvudprovet 23×17.
+- Centralruinen blockerar nio fasta rutor och ritas som ett gemensamt landmärke. Ringen runtom är fri i layouten. Statyhuvudet ligger ovanför/toppen av banan; markmosaik och skärvor saknar kollision.
+- Murar och urnor använder ordinarie förstöring, bomber och bonusregler med ett träffsteg. Inga nya fällor, sandbromsning eller miljöförmågor. Den fasta provlayouten ersätter slumpmässig hinderfyllning på just Ökenruinen; brick density ändrar inte dess grundlayout.
+- Alla tidigare banor finns kvar. Respawn- och CTF-lägen anpassar basområden enligt vanliga lägesregler; Classic är närmast paketets exakta grundlayout.
+- Nytt CTF-regelpaket **CTF Fortress**, tillgängligt via CTF → My presets. Flaggbäraren begränsas till 75 procent av grundfarten, två sprängbara portar skyddar varje flaggrum, och flaggan tar 1,5 sekunder att stjäla från hemmabasen.
+- Försvarare kan reparera portarna med befintliga BUILD-laddningar. Det sista utloppet får inte stängas när en spelare står inne i rummet. Spawnplatser är separata från portarna.
+- Alla fyra Fortress-inställningar finns separat i Rules: fartbegränsning (Off/75/50%), befästa flaggbaser, portreparation med BUILD och stöldtid (0/1/1,5/2 s). Det tidigare Capture The Flag-paketet behåller de tidigare reglerna.
+- Egna regler, gamla regelpaket, figurer, ljud, tangenter, Practice och LAN behålls. Alla datorer behöver samma provversion. Windows-programfilen är fortfarande oförändrad.
+
+Provspela särskilt: kollision vid urnor/murar, rörelse och eld runt centralruinens fyra sidor, spawn och tidig flykt, kontrast för bonusar/eld på sand, botarnas anfall/portreparation samt flaggbärarens fart och lagspel. Alla tidigare specialförmågor finns kvar; deras taktiska balans i Fortress behöver mänskligt provspel. Mänskliga Windows-/LAN- och handkontrollsprov återstår.
 
 ## Kom igång
 
