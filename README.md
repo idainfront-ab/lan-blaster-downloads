@@ -2,32 +2,28 @@
 
 Ett retroinspirerat arenaspel för **2–16 spelare på LAN**, en spelare per dator. Spelet fungerar utan internetanslutning när det är nedladdat.
 
-## Senaste testversion: 0.1.0-dev15.7
+## Senaste testversion: 0.1.0-dev15.8
 
-**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev15.7/LAN_Blaster_0.1.0-dev15.7_Windows.zip)**
+**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev15.8/LAN_Blaster_0.1.0-dev15.8_Windows.zip)**
 
-[Vad är nytt och kända begränsningar](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v0.1.0-dev15.7) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev15.7/LAN_Blaster_0.1.0-dev15.7_Windows.zip.sha256) · [Alla versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
+[Vad är nytt och kända begränsningar](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v0.1.0-dev15.8) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev15.8/LAN_Blaster_0.1.0-dev15.8_Windows.zip.sha256) · [Alla versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
 
-## Nytt i 0.1.0-dev15.7
+## Nytt i 0.1.0-dev15.8
 
-- **E2-speaker:** de sex godkända utropen First kill, Multi kill, Mega kill, Ultra kill, Shame on you och Last laugh följer med offline. Multi/Mega/Ultra gäller 3/5/7 motståndarkills utan egen död, utan tidsgräns. Serien börjar om vid död och ny runda. Separat volym, mute och röstprov finns under Audio.
-- **Napalm Bomb:** kort första kors och tre sekunders kvarvarande eld. **Cluster Bomb:** upp till fyra synliga barnbomber med landningsvarning och 1,25 sekunders stubin efter landningen. Båda ger en laddning per fynd, max två, och väljs med Q. Tidigare bomber och BUILD finns kvar i det utökade inventoryt.
-- **Confusion:** en negativ svamp inverterar rörelseriktningarna i fem sekunder. Bomb och Q fungerar normalt. Effekten syns på figuren och försvinner vid död. Varje ny typ har egen Off/Low/Normal/High-inställning under Rules → Items, för både Practice och LAN.
-- **Dödseffekt:** pixelpoff övergår i en tecknad blod-/sotfläck som tonar bort. Den påverkar inte kollisioner. Den gamla X-markeringen finns som lokalt alternativ under Audio / Menu.
-- **Snow och Volcano** är nya valbara banfamiljer. Garden, Cavern, Docks, Crossroads, Rings, Factory, Portals och Switchyard använder de förberedda spritesen och sina granskade miljöobjekt. Classic får enbart varsamt uppdaterad grafik med samma layout. Desert Ruins finns kvar. Totalt tolv banfamiljer.
-- **Närmare konceptbilderna:** större och lugnare golvmönster, kraftigare tematiska murkanter, varierade pelare, lyktor och miljödetaljer. Snow har en större igloo med 5 × 5 fasta rutor och fri gång runtom. Docks får kajstensytor, Rings en stenlagd ring och Switchyard nya svängda rälsdekorationer. Menyns banbilder använder samma rendering som spelet.
-- Stora objekt har gemensamma blockerade rutor för värd, klient, bomber och botar. CTF placerar hela speglade objekt med hänsyn till baser och attackvägar. Golvdekorationer är platta. Snö, lava och vatten inför inga nya specialregler. Transportband, portalpar och grindar behåller sin tidigare funktion.
-- Banomröstningen rymmer tolv val. Musikvalen omfattar även Snow och Volcano med befintliga spelspår. Alla 19 figurer, rund-/seriestatistik, butik, CTF Fortress och LAN Lab finns kvar.
+## Nytt
 
-## Prova gärna
-Välj Snow eller Volcano och kör först Practice med åtta spelare, sedan fyra och sexton. Kontrollera hörn och gångar kring stora objekt. Prova Napalm, Cluster och Confusion med Rules-inställningarna på respektive av, och Q-växling inklusive BUILD i CTF. Lyssna på E2 tillsammans med musik/effekter och justera Audio-volymen efter smak.
+- Personliga kill-utrop: First kill per spelare och runda, samt Multi/Mega/Ultra vid 3/5/7 motståndarkills utan egen eliminering. Utropen hörs hos den berörda spelaren.
+- Ny speakermix: E minus två halvtoner med nedtonad klang. Wilhelm spelas vid varje eget förlorat liv, även med liv kvar och vid upprepade Deathmatch-dödsfall.
+- Ny grafisk F1-hjälp med Weapons & bonuses och Game modes, alla 25 pickups plus normalbomben, riktiga ikoner, aktuella regler och dina valda tangenter. Matchen fortsätter när hjälpen är öppen.
+- Nya sammanhängande eldstrålar med kort kosmetisk efterglöd. Räckvidd, utbredning och skadefönster är oförändrade. Classic explosion graphics kan väljas lokalt i Audio / Menu.
 
-På LAN ska alla använda Dev15.7. Kontrollera att föremål, eld, barnbomber, dödsfläckar och utrop stämmer mellan datorerna. De automatiska nätverkstesterna använder flera riktiga spelprocesser på samma dator; fysisk LAN-räckvidd, brandväggar, handkontrollkänsla och högtalarmix behöver fortfarande bedömas i provspel.
+## Provspela
 
-## Grafikens anpassning
-Konceptens lösa hinderfördelning ersätts av spelets vanliga generator. Stora objekts genomskinliga hörn ingår i deras rektangulära blockerade footprint; själva bilden och skuggan visar objektet utan en färgad rektangel under. I CTF kan objekt flyttas och förekomma som speglade par för att hålla baser och vägar fria. Minsta Rings saknar centralsockel. I minsta CTF utelämnas Docks extra vatteninlopp och Factorys trycktank för att hålla vägarna fria. Crossroads får inga breddade huvudpassager. Classic får inga stora objekt. Portalernas stora golvhalo är dekor; den aktiva rutan i mitten och portalparen fungerar som tidigare. Switchyards nya räls är golvdekor, inte en ny tågmekanik.
+Använd samma Dev15.8 på alla datorer. Prova flera liv, Deathmatch-respawn, sköld, personliga utrop och volym/mute. Sköldabsorption ska inte utlösa Wilhelm.
 
-Det portabla Windows-paketet använder samma oförändrade Godot-programfil och separata genvägsikon som tidigare. Ingen betald signering eller ny tjänst krävs. Äldre numrerade releaser finns kvar på samma nedladdningsspår.
+Öppna och stäng hjälpen med F1/Escape under match och granska Napalm, Cluster, Confusion och CTF Fortress. Utförlig hjälp och tangentinställningar finns kvar.
+
+Detta är det befintliga interna Dev15.8-paketet, publicerat utan ombyggnad.
 
 ## Kom igång
 
