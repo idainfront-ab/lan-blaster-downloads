@@ -2,27 +2,32 @@
 
 Ett retroinspirerat arenaspel för **2–16 spelare på LAN**, en spelare per dator. Spelet fungerar utan internetanslutning när det är nedladdat.
 
-## Senaste testversion: 0.1.0-dev15.6
+## Senaste testversion: 0.1.0-dev15.7
 
-**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev15.6/LAN_Blaster_0.1.0-dev15.6_Windows.zip)**
+**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev15.7/LAN_Blaster_0.1.0-dev15.7_Windows.zip)**
 
-[Vad är nytt och kända begränsningar](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v0.1.0-dev15.6) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev15.6/LAN_Blaster_0.1.0-dev15.6_Windows.zip.sha256) · [Alla versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
+[Vad är nytt och kända begränsningar](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v0.1.0-dev15.7) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev15.7/LAN_Blaster_0.1.0-dev15.7_Windows.zip.sha256) · [Alla versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
 
-## Nytt i 0.1.0-dev15.6
+## Nytt i 0.1.0-dev15.7
 
-- LAN Lab öppnar nu en lobby där värden själv väljer alla tillgängliga banor, Classic, Deathmatch eller Capture The Flag och spelets vanliga Match settings.
-- Open lobby ansluter valda laptoppar. De blir Ready automatiskt, även när värden ändrar regler. Matchen startar först när värden väljer Start match.
-- Back to lobby avbryter matchen och samlar samma anslutna spelare för nya banor och regler. Resultatrutan startar inte längre om matchen automatiskt.
-- Autopiloterna köper ett tillgängligt föremål i butiken när de har råd, blir klara och deltar i banröstningen. Värdens spelare styrs manuellt tills F8 används.
-- Tiominutersgränsen är borttagen. Testet kör tills det stoppas med Stop all eller programmet stängs ordnat.
-- Parkoppling sparas skyddat för Windows-användaren på båda datorerna. Laptoppar återansluter med samma parkoppling efter omstart. Forget selected tar bort kopplingen.
-- Status och rapporter visar valda regler och aktuell bana. Normal spelstart och möjligheten att bygga helt utan labbstöd bevaras.
+- **E2-speaker:** de sex godkända utropen First kill, Multi kill, Mega kill, Ultra kill, Shame on you och Last laugh följer med offline. Multi/Mega/Ultra gäller 3/5/7 motståndarkills utan egen död, utan tidsgräns. Serien börjar om vid död och ny runda. Separat volym, mute och röstprov finns under Audio.
+- **Napalm Bomb:** kort första kors och tre sekunders kvarvarande eld. **Cluster Bomb:** upp till fyra synliga barnbomber med landningsvarning och 1,25 sekunders stubin efter landningen. Båda ger en laddning per fynd, max två, och väljs med Q. Tidigare bomber och BUILD finns kvar i det utökade inventoryt.
+- **Confusion:** en negativ svamp inverterar rörelseriktningarna i fem sekunder. Bomb och Q fungerar normalt. Effekten syns på figuren och försvinner vid död. Varje ny typ har egen Off/Low/Normal/High-inställning under Rules → Items, för både Practice och LAN.
+- **Dödseffekt:** pixelpoff övergår i en tecknad blod-/sotfläck som tonar bort. Den påverkar inte kollisioner. Den gamla X-markeringen finns som lokalt alternativ under Audio / Menu.
+- **Snow och Volcano** är nya valbara banfamiljer. Garden, Cavern, Docks, Crossroads, Rings, Factory, Portals och Switchyard använder de förberedda spritesen och sina granskade miljöobjekt. Classic får enbart varsamt uppdaterad grafik med samma layout. Desert Ruins finns kvar. Totalt tolv banfamiljer.
+- **Närmare konceptbilderna:** större och lugnare golvmönster, kraftigare tematiska murkanter, varierade pelare, lyktor och miljödetaljer. Snow har en större igloo med 5 × 5 fasta rutor och fri gång runtom. Docks får kajstensytor, Rings en stenlagd ring och Switchyard nya svängda rälsdekorationer. Menyns banbilder använder samma rendering som spelet.
+- Stora objekt har gemensamma blockerade rutor för värd, klient, bomber och botar. CTF placerar hela speglade objekt med hänsyn till baser och attackvägar. Golvdekorationer är platta. Snö, lava och vatten inför inga nya specialregler. Transportband, portalpar och grindar behåller sin tidigare funktion.
+- Banomröstningen rymmer tolv val. Musikvalen omfattar även Snow och Volcano med befintliga spelspår. Alla 19 figurer, rund-/seriestatistik, butik, CTF Fortress och LAN Lab finns kvar.
 
-Uppdatera LANBlasterLab.exe på både värddatorn och laptopparna genom att packa upp det nya paketet. Gör en första sparad parkoppling i Dev15.6, välj Update selected, invänta Ready och klicka Open lobby. Välj sedan Match settings i värdens spelfönster och Start match. Back to lobby finns i kontrollpanelen.
+## Prova gärna
+Välj Snow eller Volcano och kör först Practice med åtta spelare, sedan fyra och sexton. Kontrollera hörn och gångar kring stora objekt. Prova Napalm, Cluster och Confusion med Rules-inställningarna på respektive av, och Q-växling inklusive BUILD i CTF. Lyssna på E2 tillsammans med musik/effekter och justera Audio-volymen efter smak.
 
-Autopiloten är en testspelare som rör sig, använder vanliga bomber och följer CTF-mål. Den aktiverar inte alla specialvapen/förmågor själv; använd F8 för riktade manuella prov. Alla tillåtna banor och regelval kan köras, men det är ingen garanti för taktiskt bra spel eller full automatisk täckning av varje föremål.
+På LAN ska alla använda Dev15.7. Kontrollera att föremål, eld, barnbomber, dödsfläckar och utrop stämmer mellan datorerna. De automatiska nätverkstesterna använder flera riktiga spelprocesser på samma dator; fysisk LAN-räckvidd, brandväggar, handkontrollkänsla och högtalarmix behöver fortfarande bedömas i provspel.
 
-Laptoppar behöver vara inloggade med styrprogrammet öppet. För stängda lock måste datorerna fortsätta vara vakna på nätström; fysisk funktion, bilddrivrutiner och kylning behöver provas på varje laptop.
+## Grafikens anpassning
+Konceptens lösa hinderfördelning ersätts av spelets vanliga generator. Stora objekts genomskinliga hörn ingår i deras rektangulära blockerade footprint; själva bilden och skuggan visar objektet utan en färgad rektangel under. I CTF kan objekt flyttas och förekomma som speglade par för att hålla baser och vägar fria. Minsta Rings saknar centralsockel. I minsta CTF utelämnas Docks extra vatteninlopp och Factorys trycktank för att hålla vägarna fria. Crossroads får inga breddade huvudpassager. Classic får inga stora objekt. Portalernas stora golvhalo är dekor; den aktiva rutan i mitten och portalparen fungerar som tidigare. Switchyards nya räls är golvdekor, inte en ny tågmekanik.
+
+Det portabla Windows-paketet använder samma oförändrade Godot-programfil och separata genvägsikon som tidigare. Ingen betald signering eller ny tjänst krävs. Äldre numrerade releaser finns kvar på samma nedladdningsspår.
 
 ## Kom igång
 
