@@ -2,28 +2,29 @@
 
 Ett retroinspirerat arenaspel för **2–16 spelare på LAN**, en spelare per dator. Spelet fungerar utan internetanslutning när det är nedladdat.
 
-## Senaste testversion: 0.1.0-dev15.8
+## Senaste testversion: 0.1.0-dev16
 
-**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev15.8/LAN_Blaster_0.1.0-dev15.8_Windows.zip)**
+**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev16/LAN_Blaster_0.1.0-dev16_Windows.zip)**
 
-[Vad är nytt och kända begränsningar](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v0.1.0-dev15.8) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev15.8/LAN_Blaster_0.1.0-dev15.8_Windows.zip.sha256) · [Alla versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
+[Vad är nytt och kända begränsningar](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v0.1.0-dev16) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev16/LAN_Blaster_0.1.0-dev16_Windows.zip.sha256) · [Alla versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
 
-## Nytt i 0.1.0-dev15.8
+## Nytt i 0.1.0-dev16
 
-## Nytt
+- **Hold the Crown:** nytt spelläge för alla mot alla eller två/fyra lag. Håll kronan för att samla tid. Standard är tre minuter, 75 procent bärarfart, tappad krona vid oskyddad träff och obegränsade respawns. Rules har poängmål, fart, tappregel, respawntid/skydd och återställning av lös krona. Kronstatistik visas efter matchen.
+- **Deathmatch alla mot alla:** individuell poäng, utspridda starter och säkra respawns. Lagvarianten finns kvar. Play style ändrar lagindelningen inom valt spelläge.
+- **CTF Standard använder Fortress:** befästa baser, BUILD-reparation, långsammare flaggbärare och stillastående stöld. Vanlig CTF finns kvar som preset och Fortress-delarna kan ändras i Rules.
+- **Normal som itemstandard:** nya standardregler har Normal på alla tillåtna föremål. Grundbonusar är fortfarande vanligare än specialvapen. Low/High är relativa frekvenser, inte garantier. Sparade egna frekvenser bevaras.
+- **Starkare Cluster och Napalm:** Cluster har större sekundära explosioner som påverkas av Flame. Napalm ger fem laddningar, större räckvidd med Flame och cirka fyra sekunders kvarliggande eld. Befintliga CTF-skydd behålls.
+- **Separat detonering:** Space placerar, vänster Ctrl detonerar Time/Remote och Q växlar vapen. Att släppa Space detonerar inte längre. Remote med Fast ignition av börjar sin vanliga stubin vid detonering. Tangenter och handkontroll kan konfigureras; hjälpen är uppdaterad.
+- **Mer block:** 75 procent som standard och 90 procent som alternativ. Desert Ruins använder samma täthetsval; centralruin, gångring och startytor bevaras.
+- **Tydligare menyer:** fyra spellägeskort, lägesspecifika Rules, Starting health i respawnlägen och en riktig How to play-knapp. Hälsa begränsar inte antalet respawns.
+- **Ljud:** separat Test sound effects och Test announcer, enkel Announcer-etikett och fungerande röstförhandsvisning i menyn. Musik är på i nya profiler; egna sparade ljudval respekteras.
+- **Ny startsekvens:** godkänd D&J Game Studio-logga i tre sekunder, mjuk övertoning till LAN BLASTER och separat Continue-knapp. Fulla bilder med bevarade proportioner. Mus, Enter/Space och bekräftelse på handkontroll stöds. Introt visas en gång per programstart.
+- **Deltagarpresentation:** alla spelare visas före rundan med valda figurer, namn, egen markering och lag. Get ready och Fight använder den valda speakerriktningen. Ingen presentation vid vanlig respawn.
+- **LAN-lista:** automatisk sökning och Refresh visar namn, spelläge, bana, platser samt ledig/full/pågående status. Fulla och pågående matcher visas utan Join. Manuell IP och port finns kvar som reserv.
+- **Practice-rättning:** Tab följt av Space ska inte kunna aktivera Leave game av misstag. Privat lokal händelselogg hjälper vid fortsatta rapporter om återgång till menyn.
 
-- Personliga kill-utrop: First kill per spelare och runda, samt Multi/Mega/Ultra vid 3/5/7 motståndarkills utan egen eliminering. Utropen hörs hos den berörda spelaren.
-- Ny speakermix: E minus två halvtoner med nedtonad klang. Wilhelm spelas vid varje eget förlorat liv, även med liv kvar och vid upprepade Deathmatch-dödsfall.
-- Ny grafisk F1-hjälp med Weapons & bonuses och Game modes, alla 25 pickups plus normalbomben, riktiga ikoner, aktuella regler och dina valda tangenter. Matchen fortsätter när hjälpen är öppen.
-- Nya sammanhängande eldstrålar med kort kosmetisk efterglöd. Räckvidd, utbredning och skadefönster är oförändrade. Classic explosion graphics kan väljas lokalt i Audio / Menu.
-
-## Provspela
-
-Använd samma Dev15.8 på alla datorer. Prova flera liv, Deathmatch-respawn, sköld, personliga utrop och volym/mute. Sköldabsorption ska inte utlösa Wilhelm.
-
-Öppna och stäng hjälpen med F1/Escape under match och granska Napalm, Cluster, Confusion och CTF Fortress. Utförlig hjälp och tangentinställningar finns kvar.
-
-Detta är det befintliga interna Dev15.8-paketet, publicerat utan ombyggnad.
+Utvecklingsbygge. Alla datorer i en LAN-match behöver samma version. Balansvärdena är startvärden för provspelning; automatiska kontroller ersätter inte upplevd spelbalans eller ett fysiskt nätverks-/handkontrollprov.
 
 ## Kom igång
 
