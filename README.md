@@ -2,29 +2,32 @@
 
 Ett retroinspirerat arenaspel för **2–16 spelare på LAN**, en spelare per dator. Spelet fungerar utan internetanslutning när det är nedladdat.
 
-## Senaste testversion: 0.1.0-dev16
+## Senaste testversion: 0.1.0-dev17
 
-**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev16/LAN_Blaster_0.1.0-dev16_Windows.zip)**
+**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev17/LAN_Blaster_0.1.0-dev17_Windows.zip)**
 
-[Vad är nytt och kända begränsningar](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v0.1.0-dev16) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev16/LAN_Blaster_0.1.0-dev16_Windows.zip.sha256) · [Alla versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
+[Vad är nytt och kända begränsningar](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v0.1.0-dev17) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev17/LAN_Blaster_0.1.0-dev17_Windows.zip.sha256) · [Alla versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
 
-## Nytt i 0.1.0-dev16
+## Nytt i 0.1.0-dev17
 
-- **Hold the Crown:** nytt spelläge för alla mot alla eller två/fyra lag. Håll kronan för att samla tid. Standard är tre minuter, 75 procent bärarfart, tappad krona vid oskyddad träff och obegränsade respawns. Rules har poängmål, fart, tappregel, respawntid/skydd och återställning av lös krona. Kronstatistik visas efter matchen.
-- **Deathmatch alla mot alla:** individuell poäng, utspridda starter och säkra respawns. Lagvarianten finns kvar. Play style ändrar lagindelningen inom valt spelläge.
-- **CTF Standard använder Fortress:** befästa baser, BUILD-reparation, långsammare flaggbärare och stillastående stöld. Vanlig CTF finns kvar som preset och Fortress-delarna kan ändras i Rules.
-- **Normal som itemstandard:** nya standardregler har Normal på alla tillåtna föremål. Grundbonusar är fortfarande vanligare än specialvapen. Low/High är relativa frekvenser, inte garantier. Sparade egna frekvenser bevaras.
-- **Starkare Cluster och Napalm:** Cluster har större sekundära explosioner som påverkas av Flame. Napalm ger fem laddningar, större räckvidd med Flame och cirka fyra sekunders kvarliggande eld. Befintliga CTF-skydd behålls.
-- **Separat detonering:** Space placerar, vänster Ctrl detonerar Time/Remote och Q växlar vapen. Att släppa Space detonerar inte längre. Remote med Fast ignition av börjar sin vanliga stubin vid detonering. Tangenter och handkontroll kan konfigureras; hjälpen är uppdaterad.
-- **Mer block:** 75 procent som standard och 90 procent som alternativ. Desert Ruins använder samma täthetsval; centralruin, gångring och startytor bevaras.
-- **Tydligare menyer:** fyra spellägeskort, lägesspecifika Rules, Starting health i respawnlägen och en riktig How to play-knapp. Hälsa begränsar inte antalet respawns.
-- **Ljud:** separat Test sound effects och Test announcer, enkel Announcer-etikett och fungerande röstförhandsvisning i menyn. Musik är på i nya profiler; egna sparade ljudval respekteras.
-- **Ny startsekvens:** godkänd D&J Game Studio-logga i tre sekunder, mjuk övertoning till LAN BLASTER och separat Continue-knapp. Fulla bilder med bevarade proportioner. Mus, Enter/Space och bekräftelse på handkontroll stöds. Introt visas en gång per programstart.
-- **Deltagarpresentation:** alla spelare visas före rundan med valda figurer, namn, egen markering och lag. Get ready och Fight använder den valda speakerriktningen. Ingen presentation vid vanlig respawn.
-- **LAN-lista:** automatisk sökning och Refresh visar namn, spelläge, bana, platser samt ledig/full/pågående status. Fulla och pågående matcher visas utan Join. Manuell IP och port finns kvar som reserv.
-- **Practice-rättning:** Tab följt av Space ska inte kunna aktivera Leave game av misstag. Privat lokal händelselogg hjälper vid fortsatta rapporter om återgång till menyn.
+- Ny bana: **LAN Party**, med sex datorgrupper, serverrack och LAN-inredning i tre banstorlekar. Fungerar med ordinarie regler, densitet och CTF.
+- **Booze Bottle / Tipsy:** 0,5 sekunders varning, fyra sekunders vinglig gång och trögare svängar, därefter sex sekunders flaskimmunitet. Slow finns kvar. Slow, Confusion och Tipsy kombineras eller köas inte.
+- **Blast Frenzy:** valbar slutspurt med dubbel/tredubbel bombräckvidd och normal/dubbel skada. Kan användas separat eller tillsammans med Arena collapse. Bara nytillkomna bomber får förstärkningen.
+- Egen matchtid och eget positivt Deathmatch-poängmål. Unlimited tar bort tidsgränsen; poängmålet finns kvar.
+- **Fullscreen** via inställningarna eller Alt+Enter.
+- **Chille och Kim** som valbara karaktärer.
+- THE BLAST LIST och resultat visar placeringar, delade placeringar och tydliga lagställningar.
+- Förbättrade säkra respawns och återhämtning när botar/autopiloter fastnar.
+- Lab: test-/matchtimer, automatisk incident- och rapportinsamling, mer historik, snabbare resursmätning, direkt status-/rapportåtkomst och korrekt status vid avsiktligt stopp.
+- Förbättrad Audio/Game menu på mindre skärmar och banomröstning där alla tretton val får plats.
 
-Utvecklingsbygge. Alla datorer i en LAN-match behöver samma version. Balansvärdena är startvärden för provspelning; automatiska kontroller ersätter inte upplevd spelbalans eller ett fysiskt nätverks-/handkontrollprov.
+## Testat och kvar att provspela
+
+Det kompletta automatiska byggflödet är godkänt: alla tretton banor i fem lägen både i källspelet och Windows-exporten, nätverksstörningar, start/hjälp/bildformat, automatisk Lab-insamling samt exporter med och utan Lab. Ett nytt fysiskt långtidsprov med åtta datorer, handkontrollskänsla och balansbedömning återstår.
+
+För Lab måste nya **LANBlasterLab.exe** kopieras till värden och varje klient en gång. Sparade parkopplingar behålls. **Update selected** uppdaterar spelfilerna, inte Lab-programmet självt. Låt kontrollprogrammen vara öppna för automatisk övervakning; ständig AI-analys ingår inte.
+
+Detta är samma ZIP och kontrollsumma som det godkända interna Dev17-bygget. Ingen ombyggnad, ompaketering eller ny speltestomgång har gjorts för delningen.
 
 ## Kom igång
 
@@ -33,7 +36,7 @@ Utvecklingsbygge. Alla datorer i en LAN-match behöver samma version. Balansvär
 4. För LAN: en person väljer **Host LAN**, anger matchnamn och **2–16 slots**, och trycker **Create LAN lobby**. Välj sedan rätt nätkort under **HOST ADDRESS TO SHARE** och **Copy IP**. Övriga väljer **Join LAN** och matchen i listan eller ansluter till värdens lokala IP och samma UDP-port.
 5. Alla använder **samma version**. Värden kan lägga till botar, välja två/fyra lag, liv, banlista och banomröstning i Match settings. Alla människor ska vara Ready; botar blir redo automatiskt. Minst två deltagare räcker och alla slots behöver inte fyllas. Butiken erbjuder tio köp för mynt och startar rundan när alla är klara eller efter 30 sekunder. Läs regler och föremål i How to play / F1.
 
-Styr med WASD/piltangenter och använd bomber med mellanslag. Q byter bombtyp och WEAPON-panelen visar valet. E / handkontroll Y använder Bomb throw när förmågan finns. Tangentbordet kan bindas om i hjälpen. Escape öppnar menyn. M tystar eller återupptar musiken. Tangentbord och handkontroll stöds. Musik och ljudeffekter har separata reglage.
+Styr med WASD/piltangenter och använd bomber med mellanslag. Q byter bombtyp och WEAPON-panelen visar valet. Vänster Ctrl detonerar Time/Remote-bomber. E / handkontroll Y använder Bomb throw när förmågan finns. Tangentbordet kan bindas om i hjälpen. Escape öppnar menyn. M tystar eller återupptar musiken. Tangentbord och handkontroll stöds. Musik och ljudeffekter har separata reglage.
 
 Standardportar: UDP **24560** för match och **24561** för lokal upptäckt. Windows kan behöva tillåta spelet på det privata nätverket. En utförligare svensk guide och motorns licenstexter ingår i ZIP-filen.
 
