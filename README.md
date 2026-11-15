@@ -2,32 +2,22 @@
 
 Ett retroinspirerat arenaspel för **2–16 spelare på LAN**, en spelare per dator. Spelet fungerar utan internetanslutning när det är nedladdat.
 
-## Senaste testversion: 0.1.0-dev17
+## Senaste testversion: 0.1.0-dev17.7
 
-**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev17/LAN_Blaster_0.1.0-dev17_Windows.zip)**
+**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev17.7/LAN_Blaster_0.1.0-dev17.7_Windows.zip)**
 
-[Vad är nytt och kända begränsningar](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v0.1.0-dev17) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev17/LAN_Blaster_0.1.0-dev17_Windows.zip.sha256) · [Alla versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
+[Vad är nytt och kända begränsningar](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v0.1.0-dev17.7) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev17.7/LAN_Blaster_0.1.0-dev17.7_Windows.zip.sha256) · [Alla versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
 
-## Nytt i 0.1.0-dev17
+## Nytt i 0.1.0-dev17.7
 
-- Ny bana: **LAN Party**, med sex datorgrupper, serverrack och LAN-inredning i tre banstorlekar. Fungerar med ordinarie regler, densitet och CTF.
-- **Booze Bottle / Tipsy:** 0,5 sekunders varning, fyra sekunders vinglig gång och trögare svängar, därefter sex sekunders flaskimmunitet. Slow finns kvar. Slow, Confusion och Tipsy kombineras eller köas inte.
-- **Blast Frenzy:** valbar slutspurt med dubbel/tredubbel bombräckvidd och normal/dubbel skada. Kan användas separat eller tillsammans med Arena collapse. Bara nytillkomna bomber får förstärkningen.
-- Egen matchtid och eget positivt Deathmatch-poängmål. Unlimited tar bort tidsgränsen; poängmålet finns kvar.
-- **Fullscreen** via inställningarna eller Alt+Enter.
-- **Chille och Kim** som valbara karaktärer.
-- THE BLAST LIST och resultat visar placeringar, delade placeringar och tydliga lagställningar.
-- Förbättrade säkra respawns och återhämtning när botar/autopiloter fastnar.
-- Lab: test-/matchtimer, automatisk incident- och rapportinsamling, mer historik, snabbare resursmätning, direkt status-/rapportåtkomst och korrekt status vid avsiktligt stopp.
-- Förbättrad Audio/Game menu på mindre skärmar och banomröstning där alla tretton val får plats.
+- Rättad timinginställning för spelets egen rörelseutjämning. Simuleringen är fortsatt 60 Hz.
+- F9 sammanställer och sparar rörelserapporter i bakgrunden. Ett meddelande visas när filen faktiskt är färdig. Upprepade tryckningar skapar ingen växande kö, och påbörjad sparning slutförs vid normal avstängning.
+- Botarnas centreringsrättning från Dev17.6 behålls. Tidigare förbättringar i Dev17.x ingår också.
+- Lab 0.3.3 ingår. Har du redan den versionen behöver Lab-programmet inte bytas.
 
-## Testat och kvar att provspela
+Relevanta rörelse-, bot-, nätverks- och paketkontroller är godkända. Fortsatt fysisk långtidsprovning pågår. Vid kvarvarande ryck kan F9 användas för diagnostik utan skärminspelning; rapporterna sparas lokalt och skickas inte automatiskt.
 
-Det kompletta automatiska byggflödet är godkänt: alla tretton banor i fem lägen både i källspelet och Windows-exporten, nätverksstörningar, start/hjälp/bildformat, automatisk Lab-insamling samt exporter med och utan Lab. Ett nytt fysiskt långtidsprov med åtta datorer, handkontrollskänsla och balansbedömning återstår.
-
-För Lab måste nya **LANBlasterLab.exe** kopieras till värden och varje klient en gång. Sparade parkopplingar behålls. **Update selected** uppdaterar spelfilerna, inte Lab-programmet självt. Låt kontrollprogrammen vara öppna för automatisk övervakning; ständig AI-analys ingår inte.
-
-Detta är samma ZIP och kontrollsumma som det godkända interna Dev17-bygget. Ingen ombyggnad, ompaketering eller ny speltestomgång har gjorts för delningen.
+Detta är samma Windows-paket som det internt testade Dev17.7, utan ny byggning. Använd samma spelversion på alla datorer vid LAN-spel.
 
 ## Kom igång
 
