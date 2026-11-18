@@ -2,22 +2,21 @@
 
 Ett retroinspirerat arenaspel för **2–16 spelare på LAN**, en spelare per dator. Spelet fungerar utan internetanslutning när det är nedladdat.
 
-## Senaste testversion: 0.1.0-dev17.7
+## Senaste testversion: 0.1.0-dev17.12
 
-**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev17.7/LAN_Blaster_0.1.0-dev17.7_Windows.zip)**
+**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev17.12/LAN_Blaster_0.1.0-dev17.12_Windows.zip)**
 
-[Vad är nytt och kända begränsningar](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v0.1.0-dev17.7) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev17.7/LAN_Blaster_0.1.0-dev17.7_Windows.zip.sha256) · [Alla versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
+[Vad är nytt och kända begränsningar](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v0.1.0-dev17.12) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev17.12/LAN_Blaster_0.1.0-dev17.12_Windows.zip.sha256) · [Alla versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
 
-## Nytt i 0.1.0-dev17.7
+## Nytt i 0.1.0-dev17.12
 
-- Rättad timinginställning för spelets egen rörelseutjämning. Simuleringen är fortsatt 60 Hz.
-- F9 sammanställer och sparar rörelserapporter i bakgrunden. Ett meddelande visas när filen faktiskt är färdig. Upprepade tryckningar skapar ingen växande kö, och påbörjad sparning slutförs vid normal avstängning.
-- Botarnas centreringsrättning från Dev17.6 behålls. Tidigare förbättringar i Dev17.x ingår också.
-- Lab 0.3.3 ingår. Har du redan den versionen behöver Lab-programmet inte bytas.
+- Bonuslådornas identitet följer nu med när lådan skjuts. Den tas bort vid sprängning och kollaps, så tomma rutor inte längre får kvarhängande markeringar eller räknas som bonuslådor.
+- Stora cyanblå plusramar ersätts av små paketmärken med band på de verkliga bonuslådorna. Spräng hindret för att få fram den garanterade bonusen.
+- En kort gul paketvarning visas alltid två sekunder före en bonusleverans. Den försvinner när leveransen anländer eller avbryts. Rules styr fortfarande lådor, lösa bonusar, blandat eller avstängt.
+- Ghost förklaras i Rules, F1/den grafiska hjälpen, startguiden och inventoryt: placeringsknappen avslutar alltid Ghost, även i 15-sekundersläget. Gå helt ut på fri mark först. Att avsluta Ghost inne i ett hinder eller en blockerande bomb är fortsatt dödligt; spelregeln är oförändrad.
+- Spelmotor, rörelse, AI, ljud, vänfigurer och Lab 0.3.5 är oförändrade. Både vanlig export utan Lab och utvecklingspaketet skapas. Använd samma paketvariant på värd och klient.
 
-Relevanta rörelse-, bot-, nätverks- och paketkontroller är godkända. Fortsatt fysisk långtidsprovning pågår. Vid kvarvarande ryck kan F9 användas för diagnostik utan skärminspelning; rapporterna sparas lokalt och skickas inte automatiskt.
-
-Detta är samma Windows-paket som det internt testade Dev17.7, utan ny byggning. Använd samma spelversion på alla datorer vid LAN-spel.
+Testversion inför 1.0. Relevanta spel- och nätverkskontroller har genomförts på NIDODesktop01. Detta är samma befintliga testade Windows-paket; ingen ombyggnad eller ny speltestomgång gjordes för publiceringen. Manuell slutacceptans återstår.
 
 ## Kom igång
 
