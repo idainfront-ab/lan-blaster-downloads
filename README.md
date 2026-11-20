@@ -1,48 +1,38 @@
-# LAN Blaster — testversioner för Windows
+# LAN Blaster för Windows
 
-Ett retroinspirerat arenaspel för **2–16 spelare på LAN**, en spelare per dator. Spelet fungerar utan internetanslutning när det är nedladdat.
+Ett retroinspirerat arenaspel för **2–16 spelare på LAN**, en spelare per dator, med Practice och botar. Internet behövs inte när spelet är nedladdat.
 
-## Senaste testversion: 0.1.0-dev17.12
+## Senaste version: 1.0.0
 
-**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev17.12/LAN_Blaster_0.1.0-dev17.12_Windows.zip)**
+**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v1.0.0/LAN_Blaster_1.0.0_Windows.zip)**
 
-[Vad är nytt och kända begränsningar](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v0.1.0-dev17.12) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v0.1.0-dev17.12/LAN_Blaster_0.1.0-dev17.12_Windows.zip.sha256) · [Alla versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
+[Versionsnyheter](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v1.0.0) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v1.0.0/LAN_Blaster_1.0.0_Windows.zip.sha256) · [Tidigare versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
 
-## Nytt i 0.1.0-dev17.12
+## Nytt i 1.0.0
 
-- Bonuslådornas identitet följer nu med när lådan skjuts. Den tas bort vid sprängning och kollaps, så tomma rutor inte längre får kvarhängande markeringar eller räknas som bonuslådor.
-- Stora cyanblå plusramar ersätts av små paketmärken med band på de verkliga bonuslådorna. Spräng hindret för att få fram den garanterade bonusen.
-- En kort gul paketvarning visas alltid två sekunder före en bonusleverans. Den försvinner när leveransen anländer eller avbryts. Rules styr fortfarande lådor, lösa bonusar, blandat eller avstängt.
-- Ghost förklaras i Rules, F1/den grafiska hjälpen, startguiden och inventoryt: placeringsknappen avslutar alltid Ghost, även i 15-sekundersläget. Gå helt ut på fri mark först. Att avsluta Ghost inne i ett hinder eller en blockerande bomb är fortsatt dödligt; spelregeln är oförändrad.
-- Spelmotor, rörelse, AI, ljud, vänfigurer och Lab 0.3.5 är oförändrade. Både vanlig export utan Lab och utvecklingspaketet skapas. Använd samma paketvariant på värd och klient.
+- Ordinarie Windows-utgåva för Practice och LAN med 2–16 spelare, byggd vidare på Dev17.12 utan ändrade spelregler.
+- Classic, Deathmatch med lag eller alla mot alla, Capture The Flag/Fortress och Hold the Crown. Tretton banfamiljer, botar, Rules och sparade presets.
+- Alla 21 befintliga karaktärer finns kvar. Nya vänfigurer som förberetts den 20 november planeras separat och ingår inte i 1.0.
+- Bonuslådornas små paketmärken och Ghost-förtydligandena från Dev17.12 ingår.
+- Versionsnumret är 1.0.0 utan utvecklingsmärkning. Lab-program och Lab-bryggor ingår inte i denna spelutgåva.
+- Använd samma 1.0.0-paket på värd och klient. Behåll hela den uppackade mappen, inklusive PCK, ikon, guide och licensfiler.
 
-Testversion inför 1.0. Relevanta spel- och nätverkskontroller har genomförts på NIDODesktop01. Detta är samma befintliga testade Windows-paket; ingen ombyggnad eller ny speltestomgång gjordes för publiceringen. Manuell slutacceptans återstår.
+Spelets normala inställningar, figurval och presets sparas som tidigare. LAN-upptäckt finns; IP-adress kan användas som reservväg. Internetmatchserver och nya spelmoment hör till senare uppdateringar.
 
 ## Kom igång
 
-1. Ladda ner och packa upp hela ZIP-filen till en vanlig mapp.
-2. Behåll `LANBlaster.exe` och `LANBlaster.pck` tillsammans. Starta `LANBlaster.exe`.
-4. För LAN: en person väljer **Host LAN**, anger matchnamn och **2–16 slots**, och trycker **Create LAN lobby**. Välj sedan rätt nätkort under **HOST ADDRESS TO SHARE** och **Copy IP**. Övriga väljer **Join LAN** och matchen i listan eller ansluter till värdens lokala IP och samma UDP-port.
-5. Alla använder **samma version**. Värden kan lägga till botar, välja två/fyra lag, liv, banlista och banomröstning i Match settings. Alla människor ska vara Ready; botar blir redo automatiskt. Minst två deltagare räcker och alla slots behöver inte fyllas. Butiken erbjuder tio köp för mynt och startar rundan när alla är klara eller efter 30 sekunder. Läs regler och föremål i How to play / F1.
+1. Ladda ner och packa upp hela ZIP-filen till en vanlig mapp. Starta `LANBlaster.exe`; behåll PCK-filen och övriga filer i samma mapp.
+2. Välj Practice, eller låt en person skapa en lobby med Host LAN. Övriga väljer Join LAN och matchen i listan. Värdens lokala IP-adress och UDP-port fungerar som reservväg.
+3. Alla använder samma version och paketvariant. Välj Match settings, lägg vid behov till botar och gör alla spelare Ready innan matchen startas.
 
-Styr med WASD/piltangenter och använd bomber med mellanslag. Q byter bombtyp och WEAPON-panelen visar valet. Vänster Ctrl detonerar Time/Remote-bomber. E / handkontroll Y använder Bomb throw när förmågan finns. Tangentbordet kan bindas om i hjälpen. Escape öppnar menyn. M tystar eller återupptar musiken. Tangentbord och handkontroll stöds. Musik och ljudeffekter har separata reglage.
+WASD/piltangenter flyttar. Space placerar bomber, Q byter vapentyp och vänster Ctrl detonerar Time/Remote-bomber. E kastar bomber när förmågan finns. F1 öppnar den grafiska hjälpen; tangentbord och handkontroll stöds. Alt+Enter växlar fullscreen. Musik och ljudeffekter har separata reglage.
 
-Standardportar: UDP **24560** för match och **24561** för lokal upptäckt. Windows kan behöva tillåta spelet på det privata nätverket. En utförligare svensk guide och motorns licenstexter ingår i ZIP-filen.
+Standardportar: UDP **24560** för match och **24561** för lokal upptäckt. Tillåt spelet på Windows privata nätverk. Guide och motorns licenstexter finns i ZIP-filen. Denna utgåva innehåller inget Lab-program.
 
-## Egen ikon på en Windows-genväg
+## Ikon på skrivbordet
 
-Spelfönstret använder LAN Blaster-ikonen. Själva `LANBlaster.exe` är den oförändrade Godot-programfilen och visar därför Godot-ikonen i Utforskaren. `LANBlaster.ico` följer med som separat ikonfil.
+Skapa en genväg till LANBlaster.exe och välj den medföljande LANBlaster.ico under Egenskaper → Genväg → Byt ikon. Programfilen är den oförändrade Godot-exportmallen; spelets fönster har LAN Blaster-ikonen.
 
-1. Packa upp hela ZIP-filen till den mapp du vill behålla spelet i.
-2. Högerklicka på `LANBlaster.exe` och välj **Visa fler alternativ → Skicka till → Skrivbord (skapa genväg)**.
-3. Högerklicka på den nya genvägen och välj **Egenskaper → Genväg → Byt ikon → Bläddra**.
-4. Välj `LANBlaster.ico` i spelets mapp och tryck **OK → Verkställ**.
+## Återkoppling
 
-Om du flyttar spelets mapp behöver genvägens sökvägar uppdateras eller genvägen skapas igen.
-
-## Hjälp oss testa
-
-Detta är en utvecklingsversion. Fysiska Windows- och LAN-tester återstår. Rapportera versionsnummer, antal spelare, vad som hände och hur felet går att upprepa. Skicka återkoppling till personen som bjöd in dig till testet.
-
-Spelet använder egen kod, grafik, ljudeffekter och musik. Ursprungliga MasterBlaster-resurser ingår inte. Godot och dess beroenden har separata licenser som följer med paketet.
-
+Ange version, spelläge, bana, antal spelare och vad som hände när du rapporterar ett problem. Källkod och privata byggloggar publiceras inte här. Godot och dess beroenden har separata licenser som följer med spelet.
