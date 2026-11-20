@@ -2,24 +2,18 @@
 
 Ett retroinspirerat arenaspel för **2–16 spelare på LAN**, en spelare per dator, med Practice och botar. Internet behövs inte när spelet är nedladdat.
 
-## Senaste version: 1.0.0 R2
+## Senaste version: 1.1.0
 
-**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v1.0.0-r2/LAN_Blaster_1.0.0_Windows.zip)**
+**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v1.1.0/LAN_Blaster_1.1.0_Windows.zip)**
 
-[Versionsnyheter](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v1.0.0-r2) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v1.0.0-r2/LAN_Blaster_1.0.0_Windows.zip.sha256) · [Tidigare versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
+[Versionsnyheter](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v1.1.0) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v1.1.0/LAN_Blaster_1.1.0_Windows.zip.sha256) · [Tidigare versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
 
-## Nytt i 1.0.0 R2
+## Nytt i 1.1.0
 
-Uppdaterad 1.0 med fem ytterligare vänfigurer. Hämta det aktuella paketet från den vanliga nedladdningssidan och använd samma R2-paket på alla datorer. Den tidigare 1.0-filen finns kvar i versionshistoriken.
-
-- Ordinarie Windows-utgåva för Practice och LAN med 2–16 spelare, byggd vidare på Dev17.12 utan ändrade spelregler.
-- Classic, Deathmatch med lag eller alla mot alla, Capture The Flag/Fortress och Hold the Crown. Tretton banfamiljer, botar, Rules och sparade presets.
-- R2: Alla 21 befintliga karaktärer finns kvar, plus Martin, Gabbe, Ron Jeremy, Granis och Joel. Totalt 26 valbara karaktärer i det vanliga spelet.
-- Bonuslådornas små paketmärken och Ghost-förtydligandena från Dev17.12 ingår.
-- Versionsnumret är 1.0.0 utan utvecklingsmärkning. Lab-program och Lab-bryggor ingår inte i denna spelutgåva.
-- Använd samma 1.0.0-paket på värd och klient. Behåll hela den uppackade mappen, inklusive PCK, ikon, guide och licensfiler.
-
-Spelets normala inställningar, figurval och presets sparas som tidigare. LAN-upptäckt finns; IP-adress kan användas som reservväg. Internetmatchserver och nya spelmoment hör till senare uppdateringar.
+- Välj Warm Up, Power Rush, Mayhem, Total Chaos, Fortress Siege eller Crown Rush under **Presets**. Valen anpassas efter spelläget.
+- Power Rush, Mayhem och Total Chaos kan spelas på alla tretton banor i Practice och LAN. Hög täthet ger fler block och kompaktare säkra startöppningar.
+- I **Customize rules → Match** kan du ställa in täthet upp till 100 %, bonuschans i startblock, återbyggnadstid och intervall för bonuspåfyllning. Bonuschans −1 använder spelarantalets ordinarie chans. Noll stänger av bonusar i startblock. Alla lägen kan använda återbyggnad och påfyllning.
+- Värden väljer reglerna för LAN-matchen. Använd samma 1.1.0-paket på alla datorer.
 
 ## Kom igång
 
