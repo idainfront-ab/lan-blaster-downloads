@@ -2,19 +2,17 @@
 
 Ett retroinspirerat arenaspel för **2–16 spelare på LAN**, en spelare per dator, med Practice och botar. Internet behövs inte när spelet är nedladdat.
 
-## Senaste version: 1.2.4
+## Senaste version: 1.2.5
 
-**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v1.2.4/LAN_Blaster_1.2.4_Windows.zip)**
+**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v1.2.5/LAN_Blaster_1.2.5_Windows.zip)**
 
-[Versionsnyheter](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v1.2.4) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v1.2.4/LAN_Blaster_1.2.4_Windows.zip.sha256) · [Tidigare versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
+[Versionsnyheter](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v1.2.5) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v1.2.5/LAN_Blaster_1.2.5_Windows.zip.sha256) · [Tidigare versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
 
-## Nytt i 1.2.4
+## Nytt i 1.2.5
 
-- Gå till **Tournament → Organizer → Start a new tournament**. Ange namn, välj karta, preset och rundvinster för varje steg och granska valen. **Open registration** skapar deltagarlänken som sedan kan delas.
-- **Edit match settings** ändrar regler och kartor före lottningen med anmälningarna och deltagarlänken kvar. Efter lottningen används de sparade valen i värdarnas lobbyer.
-- När projektorn ropar upp gruppen väljer spelarna **Tournament → Join my match** från samma dator och med samma spelnamn som vid anmälan. Organizer väljer en av gruppens fyra spelare till värd. Matchen startar när spelarna är redo och resultatet rapporteras automatiskt.
-- **Use a match code** kan hitta matchen med koden på projektorn. Om upptäckten blockeras, ange också arrangörens nätverksadress. Arrangören kan byta till en annan incheckad värd före matchstart. Äldre turneringar med manuella värdplatser kan fortsätta med **Join manual lobby**.
-- Använd 1.2.4 på samtliga speldatorer i samma LAN-match.
+- Under **Customize rules → Match** väljer du återbyggnadstiden för originalblock från 3 till 120 sekunder i sekundsteg. Slå på **Dense block rebuilding** för att också ställa in **Extra refill target** från 0 till 100 procent av startblocken och **Extra refill speed** från 1 till 200 procent av standardtempot, båda i steg om en procent.
+- Mål och tempo påverkar extra block i säkra luckor. Originalblock kan fortfarande komma tillbaka enligt sin egen väntetid. Extra block placeras bara så länge målet behöver fyllas på. Förvarningen är två sekunder.
+- Förvalen och äldre sparade presets använder 55 procent och standardtempot för extra block. Reglagen fungerar i Practice och LAN.
 
 ## Kom igång
 
