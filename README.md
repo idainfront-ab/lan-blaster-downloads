@@ -2,17 +2,16 @@
 
 Ett retroinspirerat arenaspel för **2–16 spelare på LAN**, en spelare per dator, med Practice och botar. Internet behövs inte när spelet är nedladdat.
 
-## Senaste version: 1.3.0
+## Senaste version: 1.3.1
 
-**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v1.3.0/LAN_Blaster_1.3.0_Windows.zip)**
+**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v1.3.1/LAN_Blaster_1.3.1_Windows.zip)**
 
-[Versionsnyheter](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v1.3.0) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v1.3.0/LAN_Blaster_1.3.0_Windows.zip.sha256) · [Tidigare versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
+[Versionsnyheter](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v1.3.1) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v1.3.1/LAN_Blaster_1.3.1_Windows.zip.sha256) · [Tidigare versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
 
-## Nytt i 1.3.0
+## Nytt i 1.3.1
 
-- Bläddra bland samtliga 29 figurer i en bildöversikt. Välj accentfärg och se den markerade figuren i större format innan du sparar.
-- Samma väljare finns från huvudmenyn och LAN-lobbyn. Sparade figurer och färger känns igen, och lag väljs fortfarande i lobbyn.
-- Använd mus, piltangenter eller handkontrollens D-pad för att bläddra. Välj **Select character** för att spara. Alla figurer spelar likadant.
+- Spelläge, tid och bana har en egen rad. Liv, vapen och statusikoner ligger tillsammans på raden under, med fri plats för poäng och flaggstatus.
+- Vapenmeddelanden visas ovanför The Blast List. Matchhuvudet täcker varken spelplanen eller spellägets rubrik.
 
 ## Kom igång
 
