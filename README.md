@@ -2,16 +2,17 @@
 
 Ett retroinspirerat arenaspel för **2–16 spelare på LAN**, en spelare per dator, med Practice och botar. Internet behövs inte när spelet är nedladdat.
 
-## Senaste version: 1.3.1
+## Senaste version: 1.3.2
 
-**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v1.3.1/LAN_Blaster_1.3.1_Windows.zip)**
+**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v1.3.2/LAN_Blaster_1.3.2_Windows.zip)**
 
-[Versionsnyheter](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v1.3.1) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v1.3.1/LAN_Blaster_1.3.1_Windows.zip.sha256) · [Tidigare versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
+[Versionsnyheter](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v1.3.2) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v1.3.2/LAN_Blaster_1.3.2_Windows.zip.sha256) · [Tidigare versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
 
-## Nytt i 1.3.1
+## Nytt i 1.3.2
 
-- Spelläge, tid och bana har en egen rad. Liv, vapen och statusikoner ligger tillsammans på raden under, med fri plats för poäng och flaggstatus.
-- Vapenmeddelanden visas ovanför The Blast List. Matchhuvudet täcker varken spelplanen eller spellägets rubrik.
+- Välj **Settings → Video → Match layout → Arena View** för att använda större delen av skärmen till banan. Vyn fungerar på alla 13 banor, i alla tre banstorlekar, i både Practice och LAN.
+- Tid, liv, aktivt vapen och matchpoäng visas till höger. Öppna vapeninfo, utökade **The Blast List** och **Menu** med mus, tryck eller handkontroll. Med standardknapparna öppnar **View / Select** listan, höger spakklick vapeninfo och **Menu / Start** matchmenyn.
+- **Standard** finns kvar som förvalt alternativ. Varje spelare väljer sin egen vy utan att ändra något för de andra i samma match.
 
 ## Kom igång
 
