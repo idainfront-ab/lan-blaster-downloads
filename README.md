@@ -2,21 +2,17 @@
 
 Ett retroinspirerat arenaspel för **2–16 spelare på LAN**, en spelare per dator, med Practice och botar. Internet behövs inte när spelet är nedladdat.
 
-## Senaste version: 1.2.8
+## Senaste version: 1.2.9
 
-**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v1.2.8/LAN_Blaster_1.2.8_Windows.zip)**
+**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v1.2.9/LAN_Blaster_1.2.9_Windows.zip)**
 
-[Versionsnyheter](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v1.2.8) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v1.2.8/LAN_Blaster_1.2.8_Windows.zip.sha256) · [Tidigare versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
+[Versionsnyheter](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v1.2.9) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v1.2.9/LAN_Blaster_1.2.9_Windows.zip.sha256) · [Tidigare versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
 
-## Nytt i 1.2.8
+## Nytt i 1.2.9
 
-- Liv och vapen visas ovanför spelplanen. Spelarnumren på banan har ersatts av en kort pil vid den egna spelarens respawn.
-- Block som väntar på en säker plats blinkar inte. Varningar visas först för kontrollerade placeringar och sprids ut över tid.
-- Remote Bomb har synlig nedräkning, max en bomb per spelare, tolv rutors körsträcka och en halv sekunds varning före den snabba detonationen.
-- Quantum delar varje stråle åt båda sidor i ett symmetriskt mönster. Den röda Superbomben täcker upp till fem rader per arm, når längre och gör två livs skada. Drill Bomb och Shock Bomb har tagits bort.
-- Rules har val för antal bonusar per leverans, gräns för bonusar på banan och bonusschans i nya block. Intensity presets höjer mängden stegvis.
-- LAN-värden ser vilka som behöver trycka Ready. Vanliga lobbyändringar behåller Ready. Med sen anslutning på kan gäster titta, trycka Ready och vänta på en plats. En mänsklig spelare kan ersätta en bot.
-- Remne, Klint och Hemling finns i Character. Brick Push förklarar den tidigare Superman-förmågan. Small arena scale finns under Video.
+- Remote Bomb tar en tidigt begärd sväng så fort den går fri från hörnet. Svänghjälpen fungerar i Practice och på LAN.
+- En sväng som blockeras av en vägg, ett block eller en annan bomb förblir stängd. Tidsgränsen på tio sekunder och den sammanlagda körsträckan på tolv rutor gäller även med svänghjälp.
+- Huvudmenyn visar en tydlig banner när det finns en uppdatering. Bannern visar vilken version som finns och följer hämtningen, verifieringen och omstarten.
 
 ## Kom igång
 
