@@ -2,17 +2,17 @@
 
 Ett retroinspirerat arenaspel för **2–16 spelare på LAN**, en spelare per dator, med Practice och botar. Internet behövs inte när spelet är nedladdat.
 
-## Senaste version: 1.2.9
+## Senaste version: 1.3.0
 
-**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v1.2.9/LAN_Blaster_1.2.9_Windows.zip)**
+**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v1.3.0/LAN_Blaster_1.3.0_Windows.zip)**
 
-[Versionsnyheter](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v1.2.9) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v1.2.9/LAN_Blaster_1.2.9_Windows.zip.sha256) · [Tidigare versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
+[Versionsnyheter](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v1.3.0) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v1.3.0/LAN_Blaster_1.3.0_Windows.zip.sha256) · [Tidigare versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
 
-## Nytt i 1.2.9
+## Nytt i 1.3.0
 
-- Remote Bomb tar en tidigt begärd sväng så fort den går fri från hörnet. Svänghjälpen fungerar i Practice och på LAN.
-- En sväng som blockeras av en vägg, ett block eller en annan bomb förblir stängd. Tidsgränsen på tio sekunder och den sammanlagda körsträckan på tolv rutor gäller även med svänghjälp.
-- Huvudmenyn visar en tydlig banner när det finns en uppdatering. Bannern visar vilken version som finns och följer hämtningen, verifieringen och omstarten.
+- Bläddra bland samtliga 29 figurer i en bildöversikt. Välj accentfärg och se den markerade figuren i större format innan du sparar.
+- Samma väljare finns från huvudmenyn och LAN-lobbyn. Sparade figurer och färger känns igen, och lag väljs fortfarande i lobbyn.
+- Använd mus, piltangenter eller handkontrollens D-pad för att bläddra. Välj **Select character** för att spara. Alla figurer spelar likadant.
 
 ## Kom igång
 
