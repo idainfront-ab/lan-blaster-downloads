@@ -2,17 +2,21 @@
 
 Ett retroinspirerat arenaspel för **2–16 spelare på LAN**, en spelare per dator, med Practice och botar. Internet behövs inte när spelet är nedladdat.
 
-## Senaste version: 1.2.5
+## Senaste version: 1.2.8
 
-**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v1.2.5/LAN_Blaster_1.2.5_Windows.zip)**
+**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v1.2.8/LAN_Blaster_1.2.8_Windows.zip)**
 
-[Versionsnyheter](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v1.2.5) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v1.2.5/LAN_Blaster_1.2.5_Windows.zip.sha256) · [Tidigare versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
+[Versionsnyheter](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v1.2.8) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v1.2.8/LAN_Blaster_1.2.8_Windows.zip.sha256) · [Tidigare versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
 
-## Nytt i 1.2.5
+## Nytt i 1.2.8
 
-- Under **Customize rules → Match** väljer du återbyggnadstiden för originalblock från 3 till 120 sekunder i sekundsteg. Slå på **Dense block rebuilding** för att också ställa in **Extra refill target** från 0 till 100 procent av startblocken och **Extra refill speed** från 1 till 200 procent av standardtempot, båda i steg om en procent.
-- Mål och tempo påverkar extra block i säkra luckor. Originalblock kan fortfarande komma tillbaka enligt sin egen väntetid. Extra block placeras bara så länge målet behöver fyllas på. Förvarningen är två sekunder.
-- Förvalen och äldre sparade presets använder 55 procent och standardtempot för extra block. Reglagen fungerar i Practice och LAN.
+- Liv och vapen visas ovanför spelplanen. Spelarnumren på banan har ersatts av en kort pil vid den egna spelarens respawn.
+- Block som väntar på en säker plats blinkar inte. Varningar visas först för kontrollerade placeringar och sprids ut över tid.
+- Remote Bomb har synlig nedräkning, max en bomb per spelare, tolv rutors körsträcka och en halv sekunds varning före den snabba detonationen.
+- Quantum delar varje stråle åt båda sidor i ett symmetriskt mönster. Den röda Superbomben täcker upp till fem rader per arm, når längre och gör två livs skada. Drill Bomb och Shock Bomb har tagits bort.
+- Rules har val för antal bonusar per leverans, gräns för bonusar på banan och bonusschans i nya block. Intensity presets höjer mängden stegvis.
+- LAN-värden ser vilka som behöver trycka Ready. Vanliga lobbyändringar behåller Ready. Med sen anslutning på kan gäster titta, trycka Ready och vänta på en plats. En mänsklig spelare kan ersätta en bot.
+- Remne, Klint och Hemling finns i Character. Brick Push förklarar den tidigare Superman-förmågan. Small arena scale finns under Video.
 
 ## Kom igång
 
