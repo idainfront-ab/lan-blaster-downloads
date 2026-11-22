@@ -2,17 +2,17 @@
 
 Ett retroinspirerat arenaspel för **2–16 spelare på LAN**, en spelare per dator, med Practice och botar. Internet behövs inte när spelet är nedladdat.
 
-## Senaste version: 1.3.2
+## Senaste version: 1.3.3
 
-**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v1.3.2/LAN_Blaster_1.3.2_Windows.zip)**
+**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v1.3.3/LAN_Blaster_1.3.3_Windows.zip)**
 
-[Versionsnyheter](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v1.3.2) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v1.3.2/LAN_Blaster_1.3.2_Windows.zip.sha256) · [Tidigare versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
+[Versionsnyheter](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v1.3.3) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v1.3.3/LAN_Blaster_1.3.3_Windows.zip.sha256) · [Tidigare versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
 
-## Nytt i 1.3.2
+## Nytt i 1.3.3
 
-- Välj **Settings → Video → Match layout → Arena View** för att använda större delen av skärmen till banan. Vyn fungerar på alla 13 banor, i alla tre banstorlekar, i både Practice och LAN.
-- Tid, liv, aktivt vapen och matchpoäng visas till höger. Öppna vapeninfo, utökade **The Blast List** och **Menu** med mus, tryck eller handkontroll. Med standardknapparna öppnar **View / Select** listan, höger spakklick vapeninfo och **Menu / Start** matchmenyn.
-- **Standard** finns kvar som förvalt alternativ. Varje spelare väljer sin egen vy utan att ändra något för de andra i samma match.
+- Matchvyn ger banan så stor plats som möjligt på alla 13 banor. När färre spelare ger en mindre bana visas rutor och figurer automatiskt större. Vyn används i Practice och LAN.
+- Klocka, liv, aktivt vapen och ställning har en tydlig plats till höger. Vapeninfo och den fulla resultatlistan går att öppna med mus, touch och handkontroll utan att arenan flyttar sig.
+- **The Blast List** visar alla fyra vid fyrspelarmatch. Vid fler spelare visar den de tre ledande och din egen rad vid behov. Hela listan kan fortfarande öppnas.
 
 ## Kom igång
 
