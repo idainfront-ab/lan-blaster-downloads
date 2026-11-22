@@ -2,17 +2,16 @@
 
 Ett retroinspirerat arenaspel för **2–16 spelare på LAN**, en spelare per dator, med Practice och botar. Internet behövs inte när spelet är nedladdat.
 
-## Senaste version: 1.3.3
+## Senaste version: 1.3.4
 
-**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v1.3.3/LAN_Blaster_1.3.3_Windows.zip)**
+**[Ladda ner LAN Blaster för Windows x64](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v1.3.4/LAN_Blaster_1.3.4_Windows.zip)**
 
-[Versionsnyheter](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v1.3.3) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v1.3.3/LAN_Blaster_1.3.3_Windows.zip.sha256) · [Tidigare versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
+[Versionsnyheter](https://github.com/idainfront-ab/lan-blaster-downloads/releases/tag/v1.3.4) · [Kontrollsumma SHA-256](https://github.com/idainfront-ab/lan-blaster-downloads/releases/download/v1.3.4/LAN_Blaster_1.3.4_Windows.zip.sha256) · [Tidigare versioner](https://github.com/idainfront-ab/lan-blaster-downloads/releases)
 
-## Nytt i 1.3.3
+## Nytt i 1.3.4
 
-- Matchvyn ger banan så stor plats som möjligt på alla 13 banor. När färre spelare ger en mindre bana visas rutor och figurer automatiskt större. Vyn används i Practice och LAN.
-- Klocka, liv, aktivt vapen och ställning har en tydlig plats till höger. Vapeninfo och den fulla resultatlistan går att öppna med mus, touch och handkontroll utan att arenan flyttar sig.
-- **The Blast List** visar alla fyra vid fyrspelarmatch. Vid fler spelare visar den de tre ledande och din egen rad vid behov. Hela listan kan fortfarande öppnas.
+- Sen anslutning är förvald för vanliga LAN-matcher med standardregler. Värden kan stänga av **Allow joining in progress** i **Match settings**. Sparade regelpaket behåller sitt val.
+- **Watch / join** fungerar från LAN-listan även om den sista platsen redan används av en bot. En gäst kan ta botens plats vid nästa Classic-runda eller vid en säker respawn i Deathmatch.
 
 ## Kom igång
 
